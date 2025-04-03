@@ -1,0 +1,552 @@
+/* Estilos Gerais para Responsividade */
+@media (max-width: 2560px) {
+    /* Ajustes para telas grandes */
+
+
+
+    .introducao img {
+        right: -1170px;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        top: 70px;
+    }
+    
+    .divs, .div-empresa, .incentivo {
+        width: 100%;
+    }
+    
+    .div1{
+        position: relative;
+        right: -200px;
+    }
+
+    .div2{
+        top: 200px;
+        right: -300px ;
+       position: relative;
+    }
+
+    .div3{
+        top: 700px;
+        right: 180px ;
+        position: relative;
+    }
+
+    .planos h1{
+        right: -600px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .planos .texto {
+        right: 300px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .wrapper2 {
+        width: 1000px;
+        right: -200px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+    }
+    
+    .categorias-sites {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+    .video3 {
+        position: relative;
+        left: 200px;
+        width: 700px;
+    }
+
+    .video3 .bg-button{
+        position: relative;
+        right: -300px;
+    }
+
+    .video4 {
+        position: relative;
+        right: -500px;
+        width: 700px;
+    }
+
+    .video4 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video5{
+        position: relative;
+        left: -600px;
+        width: 700px;
+    }
+
+    .video5 .bg-button{
+        position: relative;
+        right: -290px;
+    }
+
+    .video6{
+        width: 700px;
+        position: relative;
+        right: 700px;
+    }
+
+    .video6 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .descricao {
+        position: static;
+        padding: 20px;
+    }
+    
+    .contato {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    .contato img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        top: 100px;
+    }
+    
+    .contato form {
+        position: static;
+        width: 100%;
+    }
+    
+    .contato input {
+        width: 100%;
+        height: 60px;
+    }
+    
+    .imagem-empresa img {
+        width: 50%;
+        height: auto;
+    }
+    
+    .apresentacao-empresa h1{
+        position: relative;
+        left: -320px;
+    }
+
+    .apresentacao-empresa p,
+    .apresentacao-empresa .btn2 {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container-card3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* Ajustes para desktops menores */
+    .introducao img {
+        right: -600px;
+        width: 500px;
+        height: 500px;
+        top: 50px;
+    }
+    
+    .introducao h1 {
+        top: 200px;
+    }
+    
+    .introducao p {
+        top: 250px;
+    }
+    
+    .introducao button {
+        top: 300px;
+    }
+    
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .video1, .video2 {
+        margin: 20px 0;
+    }
+    
+    .cards-sobre-mim {
+        margin: 10px;
+    }
+    
+    .integrantes {
+        height: auto;
+        padding: 50px 0;
+    }
+    
+    .container-card2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Ajustes para tablets em landscape */
+    .navbar-brand img {
+        width: 200px;
+        height: auto;
+    }
+    
+    .navbar-collapse .navbar-nav .nav-item a {
+        right: 0;
+        margin: 10px 0;
+    }
+    
+    .introducao {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    .introducao img {
+        position: relative;
+        right: 0;
+        margin: 30px auto;
+        display: block;
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+        top: 0;
+    }
+    
+    .introducao h1,
+    .introducao p,
+    .introducao button {
+        position: static;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .divs {
+        height: auto;
+        padding: 50px 0;
+    }
+    
+    .div1, .div2, .div3 {
+        height: auto;
+        padding: 30px;
+    }
+    
+    .div1 h5, .div2 h5, .div3 h5,
+    .div1 p, .div2 p, .div3 p,
+    .div3 h1 {
+        position: static;
+        width: 100%;
+        margin: 15px 0;
+    }
+    
+    .wrapper2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cards-sobre-mim {
+        margin-bottom: 30px;
+    }
+    
+    .bg-button {
+        right: 20px !important;
+    }
+    
+    .descricao {
+        padding: 20px;
+    }
+    
+    .apresentacao-empresa p {
+        width: 100%;
+        right: 0;
+    }
+    
+    .participantes h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Ajustes para tablets em portrait e celulares grandes */
+    .navbar-collapse {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
+    .login {
+        margin: 10px auto;
+        display: block;
+    }
+    
+    .button {
+        margin: 10px auto;
+    }
+    
+    .modal_container {
+        width: 90%;
+    }
+    
+    .iframe_container iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+    
+    .rodape-div {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4 {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .glass {
+        margin: 10px;
+    }
+    
+    .video3, .video4, .video5, .video6 {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    
+    .bg-button {
+        right: 10px !important;
+    }
+    
+    .descricao {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .contato input {
+        height: 50px;
+    }
+    
+    .imagem-empresa img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Ajustes para celulares */
+    .navbar-brand img {
+        width: 150px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .introducao h1 {
+        font-size: 2rem;
+    }
+    
+    .introducao button, .contato button, .apresentacao-empresa button {
+        width: 100%;
+    }
+    
+    form {
+        width: 100%;
+    }
+    
+    .name, .email, .tell {
+        width: 100%;
+    }
+    
+    .rodape-div-1 .flex {
+        flex-direction: column;
+    }
+    
+    .rodape-div-1 input {
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+    
+    .rodape-div-1 button {
+        border-radius: 4px;
+        width: 100%;
+    }
+    
+    .container-card3 {
+        padding: 0 10px;
+    }
+    
+    .cards-sobre-mim {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .video3, .video4, .video5, .video6 {
+        width: 100%;
+    }
+    
+    .bg-button {
+        width: 70px;
+        height: 70px;
+        right: 10px !important;
+    }
+    
+    .botao {
+        width: 50px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    
+    .contato h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        right: 0;
+    }
+    
+    .imagem-empresa img {
+        width: 90%;
+    }
+}
+
+/* Ajustes específicos para elementos */
+@media (max-width: 992px) {
+    .introducao {
+        padding: 20px;
+    }
+    
+    .oferecimento, .planos, .categorias {
+        padding: 0 20px;
+    }
+    
+    .contato {
+        padding: 30px 20px;
+    }
+    
+    .div-empresa {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main, .main2 {
+        padding: 0 10px;
+    }
+    
+    .video1, .video2, .video3, .video4, .video5, .video6 {
+        width: 100%;
+    }
+    
+    .descricao {
+        padding: 15px;
+    }
+    
+    .integrantes {
+        padding: 30px 10px;
+    }
+    
+    .container-card2, .container-card3 {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+/* Melhorias para formulário em mobile */
+@media (max-width: 576px) {
+    form {
+        padding: 0 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .button-form button {
+        width: 100%;
+        height: 60px;
+    }
+}
+
+/* Ajustes para o tema dark em mobile */
+@media (max-width: 768px) {
+    .button {
+        position: static;
+        margin: 10px auto;
+    }
+}
+
+/* Correção para os vídeos nas categorias */
+@media (max-width: 1200px) {
+    .categorias-sites .main2 {
+        top: 0;
+        z-index: 1;
+    }
+    
+    .video3, .video4, .video5, .video6 {
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: 20px auto !important;
+    }
+    
+    .descricao {
+        right: 0 !important;
+        left: 0 !important;
+        padding: 20px;
+    }
+}
+
+/* Ajustes para os cards de integrantes */
+@media (max-width: 1200px) {
+    .container-card3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .container-card3 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Ajustes para os modais de vídeo */
+@media (max-width: 768px) {
+    .modal_container {
+        padding: 10px;
+    }
+    
+    .close {
+        font-size: 30px;
+        right: 15px;
+        top: 5px;
+    }
+}

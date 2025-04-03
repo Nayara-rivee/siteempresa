@@ -1,0 +1,1144 @@
+@media screen and (max-width: 1680px) {
+    /* Ajustes para telas grandes */
+
+
+    .introducao img {
+        right: -1170px;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        top: 70px;
+    }
+    
+    .divs, .div-empresa, .incentivo {
+        width: 100%;
+    }
+    
+    .div1{
+        position: relative;
+        right: -200px;
+    }
+
+    .div2{
+        top: 200px;
+        right: -300px ;
+       position: relative;
+    }
+
+    .div3{
+        top: 700px;
+        right: 180px ;
+        position: relative;
+    }
+
+    .planos h1{
+        right: -600px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .planos .texto {
+        right: 300px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .wrapper2 {
+        width: 1000px;
+        right: -200px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+    }
+    
+    .categorias-sites {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+    .video3 {
+        position: relative;
+        left: 200px;
+        width: 700px;
+    }
+
+    .video3 .bg-button{
+        position: relative;
+        right: -300px;
+    }
+
+    .video4 {
+        position: relative;
+        right: -500px;
+        width: 700px;
+    }
+
+    .video4 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video5{
+        position: relative;
+        left: -600px;
+        width: 700px;
+    }
+
+    .video5 .bg-button{
+        position: relative;
+        right: -290px;
+    }
+
+    .video6{
+        width: 700px;
+        position: relative;
+        right: 700px;
+    }
+
+    .video6 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .descricao {
+        position: static;
+        padding: 20px;
+    }
+    
+    .planos p{
+        position: relative;
+        left: -540px;
+        text-align:center;
+        font-size: 24px;
+    }
+
+    .contato {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    .contato img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        top: 100px;
+    }
+    
+    .contato form {
+        position: static;
+        width: 100%;
+    }
+    
+    .contato input {
+        width: 100%;
+        height: 60px;
+    }
+    
+    .imagem-empresa img {
+        width: 50%;
+        height: auto;
+    }
+    
+    .apresentacao-empresa h1{
+        position: relative;
+        left: -320px;
+    }
+
+    
+    .apresentacao-empresa p{
+        position: relative;
+        left: 850px;
+        text-align: justify;
+    }
+
+    .apresentacao-empresa .btn2 {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container-card3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .wrapper2 {
+        width: 2000px;
+        right: 270px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .wrapper2 .cards-sobre-mim{
+        width: 250px;
+        height: 300px;
+    }
+    .wrapper2 .cards-sobre-mim::before{
+        width: 250px;
+        height: 300px;
+    }
+
+    .wrapper2 .cards-sobre-mim img{
+        width: 250px;
+        height: 300px;
+    }
+
+}
+@media screen and (max-width: 1440px) {
+    /* Ajustes para telas grandes */
+
+    /* .navbar{
+        width: 1440px;
+    } */
+
+    /* .navbar li{
+        font-size: 12px;
+        position: relative;
+        right: 50px;
+    } */
+
+    .introducao img {
+        right: -950px;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        top: 70px;
+    }
+
+    .introducao h1{
+        font-size: 30px;
+    }
+    
+    .divs, .div-empresa, .incentivo {
+        width: 100%;
+    }
+    
+    .div1{
+        position: relative;
+        right: -200px;
+        width: 700px;
+    }
+
+    .div2{
+        top: 200px;
+        right: -300px ;
+       position: relative;
+    }
+
+    .div3{
+        top: 700px;
+        right: 180px ;
+        position: relative;
+    }
+
+    .planos h1{
+        right: -500px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .planos .texto {
+        right: 300px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .wrapper2 {
+        width: 1000px;
+        right: -100px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+    }
+    
+    .categorias-sites {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+    .video3 {
+        position: relative;
+        left: 100px;
+        width: 700px;
+    }
+
+    .video3 .bg-button{
+        position: relative;
+        right: -270px;
+    }
+
+    .video4 {
+        position: relative;
+        right: -500px;
+        width: 700px;
+    }
+
+    .video4 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video5{
+        position: relative;
+        left: -600px;
+        width: 700px;
+    }
+
+    .video5 .bg-button{
+        position: relative;
+        right: -260px;
+    }
+
+    .video6{
+        width: 700px;
+        position: relative;
+        right: 700px;
+    }
+
+    .video6 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video3 .descricao {
+        position: static;
+        padding: 20px;
+        font-size: 14px;
+    }
+    
+    .contato {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    .contato img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        top: 100px;
+    }
+    
+    .contato form {
+        position: static;
+        width: 100%;
+    }
+    
+    .contato input {
+        width: 100%;
+        height: 60px;
+    }
+    
+    .imagem-empresa img {
+        width: 50%;
+        height: auto;
+    }
+    
+    .apresentacao-empresa h1{
+        position: relative;
+        left: -120px;
+    }
+
+    
+    .apresentacao-empresa p{
+        position: relative;
+        left: 770px;
+        text-align: justify;
+    }
+
+    .apresentacao-empresa .btn2 {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container-card3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* Ajustes para telas grandes */
+/* 
+    .navbar{
+        width: 1024px;
+    } */
+
+    .navbar img{
+        width:230px;
+        height: 100px;
+    }
+
+    .navbar li{
+        font-size: 12px;
+        position: relative;
+        right: 50px;
+        margin: 0 -20px;
+    }
+
+    .introducao img {
+        right: -650px;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 70px;
+    }
+
+    .introducao h1{
+        font-size: 20px;
+        
+    }
+
+    .introducao p{
+        font-size: 16px;
+        position: relative;
+        left: 10px;
+    }
+
+
+    .video1, .video2{
+        height: 300px;
+        width: 2000px;
+        position: relative;
+        top: -100px;
+    }
+
+    
+    .oferecimento p{
+        position: relative;
+        left: 10px;
+        top: -130px;
+    }
+    
+    .oferecimento h1{
+        position: relative;
+        top: -130px;
+    }
+
+    .divs, .div-empresa, .incentivo {
+        width: 100%;
+    }
+    
+    .div1{
+        position: relative;
+        right: -800px;
+        width: 800px;
+        height: 500px;
+        top: 30px;
+        align-items: center;
+        display: flex;
+    }
+
+    .div1 h5{
+    position: relative;
+    top: -100px;
+    }
+    .div1 p{
+        position: relative;
+        top: 30px;
+        font-size: 20px;
+        left: -150px;
+    }
+
+
+    .div2{
+        top: 550px;
+        right: -10px ;
+       position: relative;
+       width: 800px;
+    }
+    .div2 h5{
+        position: relative;
+        top: 100px;
+        right: -230px ;
+        }
+        .div2 p{
+            position: relative;
+            top: 200px;
+            font-size: 20px;
+            left: -150px;
+        }
+
+
+
+    .div3{
+        top: 1000px;
+        right: 780px ;
+        position: relative;
+        width: 800px;
+    }
+    .div3 h1{
+        position: relative;
+        right:-200px;
+        }
+        .div3 h5{
+            position: relative;
+            top: 200px;
+            font-size: 20px;
+            right: 200px;
+        }
+
+    .planos h1{
+        right: -300px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -200px;
+    }
+    .planos .texto {
+        left: -200px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .wrapper2 {
+        width: 1000px;
+        right: 70px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .wrapper2 .cards-sobre-mim{
+        width: 250px;
+        height: 300px;
+    }
+    .wrapper2 .cards-sobre-mim::before{
+        width: 250px;
+        height: 300px;
+    }
+
+    .wrapper2 .cards-sobre-mim img{
+        width: 250px;
+        height: 300px;
+    }
+
+    .categorias-sites {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .categorias p{
+        position: relative;
+        left: -10px;
+    }
+    
+    .video3 {
+        position: relative;
+        left: 50px;
+        width: 700px;
+
+    }
+    .video3 h1{
+        position: relative;
+        left: -280px;
+    }
+    .video3 p{
+        position: relative;
+        left: -280px;
+    }
+
+    .video3 .bg-button{
+        position: relative;
+        right: -250px;
+    }
+
+    .video4 {
+        position: relative;
+        right: -100px;
+        width: 700px;
+    }
+
+    .video4 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video4 h1,p{
+        position: relative;
+        left: 400px;
+    }
+
+    .video5{
+        position: relative;
+        left: -600px;
+        width: 700px;
+    }
+    .video5 h1{
+        position: relative;
+        right: 300px;
+    }
+    .video5 p{
+        position: relative;
+        left: -300px;
+    }
+
+    .video5 .bg-button{
+        position: relative;
+        right: -260px;
+    }
+
+    .video6{
+        width: 700px;
+        position: relative;
+        left: -500px;
+    }
+
+    .video6 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video6 h1{
+        position: relative;
+        right: -400px;
+    }
+    .video6 p{
+        position: relative;
+        left: 400px;
+    }
+    
+    .contato {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    .contato img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        top: 100px;
+    }
+    
+    .contato form {
+        position: static;
+        width: 100%;
+    }
+    
+    .contato input {
+        width: 100%;
+        height: 60px;
+    }
+    
+    .imagem-empresa img {
+        width: 50%;
+        height: 400px;
+        position: relative;
+        right: -250px;
+        top: 40px;
+    }
+
+    .apresentacao-empresa{
+        position: relative;
+        top: 300px;
+    }
+    
+    .apresentacao-empresa h1{
+        position: relative;
+        left: -320px;
+    }
+
+    
+    .apresentacao-empresa p{
+        position: relative;
+        left: 200px;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .apresentacao-empresa .btn2 {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+        left: 400px;
+    }
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        top:200px;
+        left:10px;
+    }
+
+    .redes{
+        position: relative;
+        top:100px;
+        left:10px;
+    }
+    
+    .container-card3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .participantes h1{
+        position: relative;
+        top: 130px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /* .navbar-collapse {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    } */
+
+
+    .introducao{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-introducao{
+        width: 500px;
+        height: 100px;
+        position: relative;
+        top: - 50px;
+        left: -450px;
+    }
+
+    .introducao h1{
+        font-size: 20px;
+        position: relative;
+        top: 500px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .introducao p{
+        font-size: 16px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 500px;
+    }
+
+    .introducao .texto button{
+        position: relative;
+        left: 220px;
+        top: 500px;
+    }
+
+
+.video1, .video2{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+    
+    .oferecimento p{
+        position: relative;
+        left: 10px;
+        top: -130px;
+        text-align: center;
+    }
+    
+    .oferecimento h1{
+        position: relative;
+        top: -130px;
+        text-align: center;
+    }
+
+    .divs, .div-empresa, .incentivo {
+        width: 100%;
+    }
+    
+    .div1{
+        position: relative;
+        right: -800px;
+        width: 800px;
+        height: 500px;
+        top: 30px;
+        align-items: center;
+        display: flex;
+    }
+
+    .div1 h5{
+    position: relative;
+    top: -100px;
+    }
+    .div1 p{
+        position: relative;
+        top: 30px;
+        font-size: 20px;
+        left: -150px;
+    }
+
+
+    .div2{
+        top: 550px;
+        right: -10px ;
+       position: relative;
+       width: 800px;
+    }
+    .div2 h5{
+        position: relative;
+        top: 100px;
+        right: -230px ;
+        }
+        .div2 p{
+            position: relative;
+            top: 200px;
+            font-size: 20px;
+            left: -150px;
+        }
+
+
+
+    .div3{
+        top: 1000px;
+        right: 780px ;
+        position: relative;
+        width: 800px;
+    }
+    .div3 h1{
+        position: relative;
+        right:-200px;
+        }
+        .div3 h5{
+            position: relative;
+            top: 200px;
+            font-size: 20px;
+            right: 200px;
+        }
+
+    .planos h1{
+        right: -24vh;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -200px;
+        font-size: 24px;
+    }
+    .planos .textos {
+        left: -10vh;
+
+        position: relative;
+        top:-100px;
+        font-size: 24px;
+    }
+
+    .wrapper2 {
+        width: 700px;
+        right: 80px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .wrapper2 .cards-sobre-mim{
+        width: 150px;
+        height: 200px;
+    }
+    .wrapper2 .cards-sobre-mim::before{
+        width: 150px;
+        height: 200px;
+    }
+
+    .wrapper2 .cards-sobre-mim img{
+        width: 150px;
+        height: 200px;
+    }
+
+    .info{
+        width: 200px;
+        position: relative;
+        top: 30px;
+    }
+
+    .info h2{
+        width: 200px;
+    }
+
+    .info p{
+        width: 100px;
+        position: relative;
+        left: -1px;
+    }
+    .info a{
+        width: 100px;
+        position: relative;
+        left: -130px;
+    }
+
+    .categorias-sites {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .categorias p{
+        position: relative;
+        left: -5px;
+        top: -200px;
+        font-size: 16px;
+    }
+    
+    .categorias h1{
+        position: relative;
+        left: -5px;
+        top: -200px;
+        font-size: 20px;
+    }
+    
+    .video3 {
+        position: relative;
+        left:200px;
+        max-width: 800px;
+        max-height: 300px;
+        top: 700px;
+    }
+    .video3 h1{
+        position: relative;
+        left: -750px;
+        text-align: center;
+        top: -70px;
+    }
+    .video3 p{
+    color: #fff;
+    }
+
+
+
+    .video4 {
+        position: relative;
+        left:-60px;
+        max-width: 800px;
+        max-height: 300px;
+        top: 1140px;
+    }
+
+
+    .video4 h1{
+        position: relative;
+        left: 840px;
+        top: -20px;
+        text-align: center;
+    }
+
+    .video4 p{
+        position: relative;
+        left: 400px;
+        color: #fff;
+    }
+
+    .video5{
+        position: relative;
+        left:-330px;
+        max-width: 800px;
+        max-height: 300px;
+        top: 1540px;
+    }
+    .video5 h1{
+        position: relative;
+        right:750px;
+        text-align: center;
+    }
+    .video5 p{
+        position: relative;
+        left: -300px;
+    }
+
+
+
+    .video6{
+        position: relative;
+        left:-590px;
+        max-width: 800px;
+        max-height: 300px;
+        top: 2040px;
+    }
+
+
+
+    .video6 h1{
+        position: relative;
+        right: -840px;
+        text-align: center;
+    }
+    .video6 p{
+        position: relative;
+        left: 400px;
+        color: #fff;
+    }
+
+    .bg-button{
+        position: relative;
+        top: 130px;
+        left: 90px;
+    }
+    
+    .contato {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    .contato img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        top: 100px;
+    }
+    
+    .contato form {
+        position: static;
+        width: 100%;
+    }
+    
+    .contato input {
+        width: 100%;
+        height: 60px;
+    }
+    
+    .imagem-empresa img {
+        width: 50%;
+        height: 400px;
+        position: relative;
+        right: -250px;
+        top: 40px;
+    }
+
+    .apresentacao-empresa{
+        position: relative;
+        top: 300px;
+    }
+    
+    .apresentacao-empresa h1{
+        position: relative;
+        left: -160px;
+    }
+
+    
+    .apresentacao-empresa p{
+        position: relative;
+        left:10px;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .div-empresa .imagem-empresa img{
+        position: relative;
+        left: 100px;
+    }
+
+    .apresentacao-empresa .btn2 {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+        left: 200px;
+    }
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        top:200px;
+        left:10px;
+    }
+
+    .redes{
+        position: relative;
+        top:100px;
+        left:10px;
+    }
+    
+    .container-card3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .participantes h1{
+        position: relative;
+        top: 130px;
+    }
+    
+    .login {
+        margin: 10px auto;
+        display: block;
+    }
+    
+    .button {
+        margin: 10px auto;
+    }
+    
+    .modal_container {
+        width: 90%;
+    }
+    
+    .iframe_container iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+    
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .glass {
+        margin: 10px;
+    }
+    
+    .video3, .video4, .video5, .video6 {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    
+    .bg-button {
+        right: 10px !important;
+    }
+    
+    .descricao {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .contato input {
+        height: 50px;
+    }
+    
+    .imagem-empresa img {
+        width: 70%;
+    }
+}

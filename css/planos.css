@@ -1,0 +1,806 @@
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.cursos {
+  display: flex;
+  height: 80vh;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+  background: #dcdcdc;
+  top: -160px;
+
+}
+.voltar {
+  margin: 20px 15px;
+  color: #fff;
+  background: #1fb840;
+  border-radius: 10%;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* navbar */
+.navbar .navbar-nav .nav-item .nav-link p {
+  position: relative;
+  top: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link i {
+  right: 2px;
+  position: relative;
+  top: -10px;
+  font-size: 26px;
+}
+
+.nav_itens .itens {
+  list-style: none;
+}
+
+.container3 .itens .nav_itens {
+  display: inline-block;
+}
+
+.container3 .itens .nav_itens a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #fff;
+  border-radius: 30px;
+  transition: 0.6s;
+}
+
+.container3 .itens .nav_itens a:hover {
+  background-color: rgb(0, 123, 255);
+}
+
+/* planos */
+
+/* Container do carrossel */
+.carrossel {
+    width: 100%;
+    max-width: 800px; /* Largura máxima do carrossel */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    right: 5%;
+    top: -200px;
+}
+
+/* Slides do carrossel */
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    height: 400px; /* Altura dos slides */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    flex-shrink: 0; /* Impede que os slides encolham */
+}
+
+/* Cores dos slides */
+.slide:nth-child(1) { background-color: #ff6b6b; } /* Vermelho */
+.slide:nth-child(2) { background-color: #6b5b95; } /* Roxo */
+.slide:nth-child(3) { background-color: #4ecdc4; } /* Verde-água */
+.slide:nth-child(4) { background-color: #ffd166; } /* Amarelo */
+.slide:nth-child(5) { background-color: #a9e050; } /* Verde */
+
+/* Efeito de prévia */
+.slide {
+    transform: scale(0.8); /* Reduz o tamanho dos slides */
+    opacity: 0.6; /* Torna os slides semi-transparentes */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.slide.ativo {
+    transform: scale(1); /* Slide ativo em tamanho normal */
+    opacity: 1; /* Slide ativo totalmente visível */
+}
+
+/* Botões de navegação */
+.carrossel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+    z-index: 10; /* Garante que os botões fiquem acima dos slides */
+}
+
+.carrossel button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carrossel button.prev {
+    left: 10px;
+}
+
+.carrossel button.next {
+    right: 10px;
+}
+.nossos-planos h1 {
+  text-decoration: none;
+  font-size: 64px;
+  color: #414040;
+  position: relative;
+  top: 100px;
+  right: -100px;
+  z-index: 1;
+}
+.nossos-planos p {
+  font-size: 34px;
+  color: #7c7c7c;
+  position: relative;
+  top: 100px;
+  right: -100px;
+  z-index: 1;
+}
+
+/* área de atendimento */
+
+.atendimento {
+  position: relative;
+  height: 700px;
+  background: #dcdcdc;
+}
+.atendimento img {
+  position: relative;
+  display: flex;
+  height: 600px;
+}
+.atendimento h1 {
+  position: relative;
+  font-size: 3em;
+  text-decoration: none;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  top: -1000px;
+  margin: 450px;
+}
+.atendimento p {
+  position: relative;
+  font-size: 1.5em;
+  text-align: justify;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  top: -1350px;
+  margin: 0 910px;
+  width: 600px;
+}
+.atendimento .faleconosco p {
+  position: relative;
+  font-size: 1.5em;
+  text-align: center;
+  top: -1300px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.atendimento .faleconosco button {
+  background: #1fb840;
+  position: relative;
+  display: flex;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  top: -1280px;
+  margin: 0 1150px;
+}
+
+.atendimento .faleconosco button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  position: relative;
+  margin: 0 20px;
+}
+
+/* ofertas */
+
+.vendas {
+  padding: 0 80px;
+  margin-top: 30px;
+  position: relative;
+  top: -10px;
+}
+
+.vendas .lista {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.vendas .lista .item img {
+  width: 280px;
+  height: 280px;
+  border-radius: 18px;
+  position: relative;
+  right: -35px;
+  top: 10px;
+}
+
+.vendas .item {
+  background: #dcdcdc;
+  width: 350px;
+  position: relative;
+  height: 550px;
+  top: 10px;
+  border-radius: 20px;
+}
+
+.vendas .lista .item .info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.vendas .lista .item .info h5 {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  display: flex;
+  right: -110px;
+  top: 10px;
+}
+
+.vendas .lista .item .btc {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.vendas .lista .item .btc i {
+  font-size: 22px;
+  color: #000000;
+  position: relative;
+  right: -20px;
+}
+
+.vendas .lista .item .btc p {
+  font-size: 18px;
+  color: #000000;
+  top: 10px;
+  position: relative;
+  right: -30px;
+}
+
+.vendas .lista .item .info > p {
+  font-size: 12px;
+  color: #000000;
+}
+
+.vendas .lista .item .oferta {
+  padding: 14px 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vendas .lista .item .oferta p {
+  color: #000000;
+  right: -20px;
+  position: relative;
+}
+
+.vendas .lista .item .oferta p .vendas .lista .item .oferta a {
+  background-color: #000000;
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.vendas .lista .item .oferta a {
+  background-color: #2288e7;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  right: 20px;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.vendas .lista .item .oferta a p {
+  color: #fff;
+  position: relative;
+  right: 0px;
+  top: 10px;
+}
+
+.vendas .lista .item .oferta a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.vendas h1 {
+  text-align: center;
+}
+.vendas p {
+  text-align: center;
+}
+
+/* tipos de sites */
+
+.container2 h2 {
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.container2 {
+  width: 100%;
+  height: 250vh;
+  position: relative;
+  top: -50px;
+}
+
+.cards-sites:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.cards-sites h1 {
+  position: relative;
+  right: -45%;
+  text-decoration: none;
+  top: -300px;
+  
+}
+.cards-sites h3 {
+  position: relative;
+  right: 45%;
+  text-decoration: none;
+  top: -200px;
+  font-size: 34px;
+  display: flex;
+  max-width: 100px;
+} 
+.cards-sites h2 {
+  position: relative;
+  right: 40%;
+  text-decoration: none;
+  top: 400px;
+}
+
+.cards-sites {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  gap: 10px;
+  margin-bottom: 30px;
+  max-width: 2000px;
+  margin: 0 auto 20px;
+  margin-top: 50px;
+  position: relative;
+}
+
+/* Card */
+.card2 {
+  width: 5000px; /* Largura do card */
+  height: 500px;
+  background-color: var(--card-bg, #fff); /* Cor dinâmica do fundo */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  margin: 100px 100px;
+  flex-direction: column;
+  max-width: 4000px;
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Header do mini layout */
+.card2 header {
+  background-color: var(--header-color, #333); /* Cor dinâmica */
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Body do mini layout */
+.card2 .body {
+  flex: 1;
+  padding: 20px;
+  background-color: var(--body-bg, #f9f9f9); /* Cor dinâmica */
+  transition: background-color 0.3s ease; /* Transição suave */
+  overflow: auto;
+}
+
+/* Footer do mini layout */
+.card2 footer {
+  background-color: var(--footer-color, #333); /* Cor dinâmica */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Quadradinhos de cores */
+.color-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  background-color: #eee;
+  position: relative;
+  top: -100px;
+  right: 5%;
+  width: 3000px;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  transition: transform 0.2s ease;
+}
+
+.color-option:hover {
+  transform: scale(1.1);
+}
+
+.color-options2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  background-color: #eee;
+  position: relative;
+  top: -100px;
+  right: 1%;
+  width: 3000px;
+}
+
+.color-option2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  transition: transform 0.2s ease;
+}
+
+.color-option2:hover {
+  transform: scale(1.1);
+}
+/* Input de cor personalizada */
+.custom-color {
+  margin-top: -290px;
+  text-align: center;
+  position: relative;
+  right: -11%;
+  background: #fff;
+  width: 1400px;
+  top: 150px;
+}
+
+.custom-color label {
+  font-size: 1rem;
+  margin-right: 10px;
+  position: relative;
+  top: 30px;
+  right: 140px;
+}
+
+.custom-color input[type="color"] {
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-color2 {
+  margin-top: -290px;
+  text-align: center;
+  position: relative;
+  right: 10%;
+
+  width: 1500px;
+  top: 120px;
+}
+
+.custom-color2 label {
+  font-size: 1rem;
+  margin-right: 10px;
+  position: relative;
+  top: 30px;
+  right: 140px;
+}
+
+.custom-color2 input[type="color"] {
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Botões fixos para trocar o fundo */
+.background-buttons {
+  position: relative;
+  top: 90px;
+  right: -28%;
+  display: flex;
+  gap: 10px;
+  background: #fff;
+  width: 5000px;
+  height: 60px;
+  top: 130px;
+}
+
+.background-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.background-buttons button:hover {
+  opacity: 0.9;
+}
+
+.background-buttons2 {
+  position: relative;
+  top: 90px;
+  right:25%;
+  display: flex;
+  gap: 10px;
+  background: #fff;
+  width: 5000px;
+  height: 60px;
+}
+
+.background-buttons2 button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.background-buttons2 button:hover {
+  opacity: 0.9;
+}
+/* Cores dos botões */
+.background-buttons button[data-bg="white"] {
+  background-color: #fff;
+  color: #333;
+}
+.background-buttons button[data-bg="gray"] {
+  background-color: #ccc;
+  color: #333;
+}
+.background-buttons button[data-bg="black"] {
+  background-color: #333;
+  color: #fff;
+}
+
+/* cores dos bortoes2 */
+
+.background-buttons2 button[data-bg="white"] {
+  background-color: #fff;
+  color: #333;
+}
+.background-buttons2 button[data-bg="gray"] {
+  background-color: #ccc;
+  color: #333;
+}
+.background-buttons2 button[data-bg="black"] {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Cores das opções */
+.color-option[data-color="#ff6b6b"] {
+  background-color: #ff6b6b;
+}
+.color-option[data-color="#6b5b95"] {
+  background-color: #6b5b95;
+}
+.color-option[data-color="#4ecdc4"] {
+  background-color: #4ecdc4;
+}
+.color-option[data-color="#ffd166"] {
+  background-color: #ffd166;
+}
+
+/* cores das opcoes2 */
+.color-option2[data-color="#ff6b6b"] {
+  background-color: #ff6b6b;
+}
+.color-option2[data-color="#6b5b95"] {
+  background-color: #6b5b95;
+}
+.color-option2[data-color="#4ecdc4"] {
+  background-color: #4ecdc4;
+}
+.color-option2[data-color="#ffd166"] {
+  background-color: #ffd166;
+}
+
+/* parte 3 cards de sites */
+
+.card2 header h1 {
+  font-size: 24px;
+  position: relative;
+  right: 40%;
+}
+
+.card2 .body .div-lateral {
+  background: #333;
+  width: 50px;
+  height: 190px;
+  position: relative;
+  top: 40px;
+  background-color: var(--divlateral-color, #333); /* Cor dinâmica */
+
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.card2 .body .div-grande {
+  width: 200px;
+  right: -25%;
+  top: -150px;
+  position: relative;
+  background: #333;
+  height: 100px;
+  background-color: var(--divgrande-color, #333); /* Cor dinâmica */
+
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.card2 .body .divs1 {
+  background: #333;
+  width: 50px;
+  height: 70px;
+  position: relative;
+  top: -130px;
+  right: -80px;
+  background-color: var(--divs1-color, #333); /* Cor dinâmica */
+
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+.card2 .body .divs2 {
+  background: #333;
+  width: 50px;
+  height: 70px;
+  position: relative;
+  top: -200px;
+  right: -140px;
+  background-color: var(--divs2-color, #333); /* Cor dinâmica */
+
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+.card2 .body .divs3 {
+  background: #333;
+  width: 50px;
+  height: 70px;
+  position: relative;
+  top: -270px;
+  right: -200px;
+  background-color: var(--divs3-color, #333); /* Cor dinâmica */
+
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.imagem-sitesdinamicos img {
+  position: relative;
+  right: -10%;
+  width: 1500px;
+}
+
+.cards-sites .link1{
+  background: #1fb840;
+  width: 1700px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 10px;
+  font-size: 24px;
+  position: relative;
+  right: -800px;
+  top: 220px;
+}
+
+.cards-sites .link2{
+  background: #1fb840;
+  width: 1700px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 10px;
+  font-size: 24px;
+  position: relative;
+  right: 800px;
+  top: 220px;
+}
+
