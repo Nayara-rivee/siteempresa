@@ -1,0 +1,102 @@
+/* area principal do cliente */
+.menu-lateral{
+    display: flex;
+    justify-content: flex-start;
+    width: 2000px;
+    right: 300px;
+    position: relative;
+    top: 40px;
+}
+
+.list-group{
+    height: 700px;
+
+}
+
+.list-group a{
+    height: 800px;
+    font-size: 24px;
+}
+
+
+body {
+
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background: #16123d;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.voltar {
+    margin: 20px 15px;
+    color: #fff;
+    background: #1fb840;
+    border-radius: 10%;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.container2{
+    position: relative;
+    top: -720px;
+    left: 900px;
+}
+
+.container2 img{
+    width: 500px;
+    height: 800px;
+    position: relative;    
+    top: -100px;
+    left: 100px;
+}
+
+.container2 h3{
+    font-size:34px;
+    position: relative;
+    top: -200px;
+    color: #fff;
+    left: 170px;
+}
+.container2 p{
+    font-size:24px;
+    position: relative;
+    top: -200px;
+    color: #fff;
+    left: 120px;
+}
+
+body {
+    font-size: 0.9rem; /* diminui o tamanho padrão da fonte */
+  }
+  
+  h1, h2, h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .table {
+    font-size: 0.85rem;
+  }
+  
+  .table th, .table td {
+    padding: 0.4rem;
+  }
+  
+  .list-group-item {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+  
+  .container, .container-fluid {
+    padding: 10px 15px;
+  }
+  
+  .navbar .btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.85rem;
+  }
+  

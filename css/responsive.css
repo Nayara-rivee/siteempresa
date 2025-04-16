@@ -1,0 +1,1780 @@
+@media screen and (max-width: 1680px) {
+    /* Ajustes para telas grandes */
+    .navbar li{
+        font-size: 14px;
+        margin: -10px;
+    }
+
+    .introducao img {
+        right: -1170px;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        top: 70px;
+    }
+    
+    .divs, .div-empresa, .incentivo {
+        width: 100%;
+    }
+    
+    .div1{
+        position: relative;
+        right: -500px;
+    }
+
+    .div2{
+        top: 250px;
+        right: -600px ;
+       position: relative;
+    }
+
+    .div3{
+        top: 750px;
+        right: -100px ;
+        position: relative;
+    }
+
+    .planos h1{
+        right: -600px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .planos .textos {
+        left: -300px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .wrapper2 {
+        width: 1000px;
+        right: -200px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+    }
+    
+    .categorias-sites {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+    .video3 {
+        position: relative;
+        left: 200px;
+        width: 700px;
+    }
+
+    .video3 .bg-button{
+        position: relative;
+        right: -300px;
+    }
+
+    .video4 {
+        position: relative;
+        right: -500px;
+        width: 700px;
+    }
+
+    .video4 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video5{
+        position: relative;
+        left: -600px;
+        width: 700px;
+    }
+
+    .video5 .bg-button{
+        position: relative;
+        right: -290px;
+    }
+
+    .video6{
+        width: 700px;
+        position: relative;
+        right: 700px;
+    }
+
+    .video6 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .descricao {
+        position: static;
+        padding: 20px;
+    }
+    
+    .planos p{
+        position: relative;
+        left: -540px;
+        text-align:center;
+        font-size: 24px;
+    }
+
+    .contato {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+    .contato h1{
+        position: relative;
+        top:-400px;
+        left: -10px;
+    }
+    
+    .contato img {
+        width: 100%;
+        max-width: 400px;
+        height: 500px;
+        position: relative;
+        display: flex;
+        right: 400px;
+        top: 200px;
+    }
+    
+    .contato form {
+        position: relative;
+        width: 100%;
+        right: -800px;
+        top: -300px;
+    }
+    
+    .contato form .button-form{
+        position: relative;
+        width: 100%;
+        right: 500px;
+        top: 60px;
+    }
+    
+    .contato input {
+        width: 500px;
+        height: 60px;
+    }
+    
+    .imagem-empresa img {
+        width: 45%;
+        height: 650px;
+    }
+    
+    .apresentacao-empresa h1{
+        position: relative;
+        left: -420px;
+    }
+
+    
+    .apresentacao-empresa p{
+        position: relative;
+        left: 750px;
+        text-align: justify;
+    }
+
+    .apresentacao-empresa .btn2 {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+        left: 950px;
+    }
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container-card3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .wrapper2 {
+        width: 2000px;
+        right: 270px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .wrapper2 .cards-sobre-mim{
+        width: 250px;
+        height: 300px;
+    }
+    .wrapper2 .cards-sobre-mim::before{
+        width: 250px;
+        height: 300px;
+    }
+
+    .wrapper2 .cards-sobre-mim img{
+        width: 250px;
+        height: 300px;
+    }
+
+    .atendimento h1{
+        position: relative;
+        right: -200px;
+    }
+
+   /* Quadradinhos de cores */
+    .cards-sites h3{
+        font-size: 26px;
+        display: flex;
+        text-align: center;
+        left: -900px;
+    }
+    .cards-sites h1{
+        font-size: 26px;
+        display: flex;
+        text-align: center;
+        left: 750px;
+    }
+
+   .color-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #eee;
+    position: relative;
+    top: -100px;
+    right: 5%;
+    width: 6000px;
+  }
+  
+  .color-option {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s ease;
+
+  }
+  
+  .color-option:hover {
+    transform: scale(1.1);
+  }
+  
+  .color-options2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #eee;
+    position: relative;
+    top: -100px;
+    right: 1%;
+    width: 6000px;
+  }
+  
+  .color-option2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s ease;
+  }
+  
+  .color-option2:hover {
+    transform: scale(1.1);
+  }
+  /* Input de cor personalizada */
+  .custom-color {
+    margin-top: -290px;
+    text-align: center;
+    position: relative;
+    right: -250px;
+    background: #fff;
+    width: 2100px;
+    top: 150px;
+  }
+  
+  .custom-color label {
+    font-size: 1rem;
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+    right: 140px;
+  }
+  
+  .custom-color input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-color2 {
+    margin-top: -290px;
+    text-align: center;
+    position: relative;
+    right: 230px;
+    width: 2200px;
+    top: 120px;
+  }
+  
+  .custom-color2 label {
+    font-size: 1rem;
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+    right: 140px;
+  }
+  
+  .custom-color2 input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Botões fixos para trocar o fundo */
+  .background-buttons {
+    position: relative;
+    top: 90px;
+    right: -28%;
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    width: 5000px;
+    height: 60px;
+    top: 130px;
+    text-align: justify;
+  }
+  
+  .background-buttons label{
+    width: 100px;
+  }
+  .background-buttons2 label{
+    width: 100px;
+  }
+
+  .background-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .background-buttons button:hover {
+    opacity: 0.9;
+  }
+  
+  .background-buttons2 {
+    position: relative;
+    top: 90px;
+    right:32%;
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    width: 5000px;
+    height: 60px;
+  }
+  
+  .background-buttons2 button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .background-buttons2 button:hover {
+    opacity: 0.9;
+  }
+  /* Cores dos botões */
+  .background-buttons button[data-bg="white"] {
+    background-color: #fff;
+    color: #333;
+  }
+  .background-buttons button[data-bg="gray"] {
+    background-color: #ccc;
+    color: #333;
+  }
+  .background-buttons button[data-bg="black"] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* cores dos bortoes2 */
+  
+  .background-buttons2 button[data-bg="white"] {
+    background-color: #fff;
+    color: #333;
+  }
+  .background-buttons2 button[data-bg="gray"] {
+    background-color: #ccc;
+    color: #333;
+  }
+  .background-buttons2 button[data-bg="black"] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Cores das opções */
+  .color-option[data-color="#ff6b6b"] {
+    background-color: #ff6b6b;
+  }
+  .color-option[data-color="#6b5b95"] {
+    background-color: #6b5b95;
+  }
+  .color-option[data-color="#4ecdc4"] {
+    background-color: #4ecdc4;
+  }
+  .color-option[data-color="#ffd166"] {
+    background-color: #ffd166;
+  }
+  
+  /* cores das opcoes2 */
+  .color-option2[data-color="#ff6b6b"] {
+    background-color: #ff6b6b;
+  }
+  .color-option2[data-color="#6b5b95"] {
+    background-color: #6b5b95;
+  }
+  .color-option2[data-color="#4ecdc4"] {
+    background-color: #4ecdc4;
+  }
+  .color-option2[data-color="#ffd166"] {
+    background-color: #ffd166;
+  }
+  
+  .cards-sites .link1{
+position: relative;
+right: -700px;
+  }
+
+}
+@media screen and (max-width: 1440px) {
+    /* Ajustes para telas grandes */
+
+    /* .navbar{
+        width: 1440px;
+    } */
+
+    .navbar li{
+        font-size: 12px;
+        position: relative;
+        right: 50px;
+        margin: -20px;
+    }
+
+    .introducao img {
+        right: -950px;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        top: 70px;
+    }
+
+    .introducao h1{
+        font-size: 30px;
+        position: relative;
+        left: 50px;
+    }
+
+    .introducao p{
+        position: relative;
+        left: 80px;
+    }
+    .introducao a button{
+        position: relative;
+        left: 400px;
+    }
+    
+    .divs, .div-empresa, .incentivo {
+        width: 100%;
+    }
+    
+    .div1{
+        position: relative;
+        right: -500px;
+        width: 700px;
+    }
+
+    .div2{
+        top: 300px;
+        right: -550px ;
+       position: relative;
+    }
+
+    .div3{
+        top: 730px;
+        right: -50px ;
+        position: relative;
+    }
+
+    .planos h1{
+        right: -470px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .planos .texto {
+        right: 300px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .wrapper2 {
+        width: 1000px;
+        right: -130px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+    }
+    
+    .categorias-sites {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+    .video3 {
+        position: relative;
+        left: 100px;
+        width: 700px;
+    }
+
+    .video3 .bg-button{
+        position: relative;
+        right: -270px;
+    }
+
+    .video4 {
+        position: relative;
+        right: -500px;
+        width: 700px;
+    }
+
+    .video4 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video5{
+        position: relative;
+        left: -600px;
+        width: 700px;
+    }
+
+    .video5 .bg-button{
+        position: relative;
+        right: -260px;
+    }
+
+    .video6{
+        width: 700px;
+        position: relative;
+        right: 700px;
+    }
+
+    .video6 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video3 .descricao {
+        position: static;
+        padding: 20px;
+        font-size: 14px;
+    }
+    
+    .contato {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+    .contato h1 {
+        position: relative;
+        top: -500px;
+    }
+    
+    .contato img {
+        width: 100%;
+        max-width: 400px;
+        top: 100px;
+    }
+    
+    .contato form {
+        position: relative;
+        width: 100%;
+        right: -600px;
+        top: -400px;
+    }
+    
+    .contato form .button-form{
+        position: relative;
+        width: 100%;
+        right: 500px;
+        top: 60px;
+    }
+    
+    .contato input {
+        width: 500px;
+        height: 60px;
+    }
+    
+    .imagem-empresa img {
+        width: 45%;
+        height: 500px;
+    }
+    
+    .apresentacao-empresa h1{
+        position: relative;
+        left: -320px;
+    }
+
+    
+    .apresentacao-empresa p{
+        position: relative;
+        left: 570px;
+        text-align: justify;
+    }
+
+    .apresentacao-empresa .btn2 {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+        left: 800px;
+    }
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container-card3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+/* planos e produtos */
+
+.cursos{
+    top: -125px;
+}
+
+  .container3 .itens .nav_itens a {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    margin: 0 10px;
+  }
+
+.nossos-planos h1 {
+    font-size: 34px;
+  }
+
+  .nossos-planos p {
+    font-size: 34px;
+    color: #7c7c7c;
+    position: relative;
+    top: 100px;
+    right: -100px;
+    z-index: 1;
+  }
+
+  .atendimento p{
+    position: relative;
+    right: 200px;
+  }
+  .atendimento button{
+    position: relative;
+    right: 300px;
+  }
+
+  .card2{
+    width: 9000px;
+  }
+     /* Quadradinhos de cores */
+     .cards-sites h3{
+        font-size: 26px;
+        display: flex;
+        text-align: center;
+        left: -900px;
+    }
+    .cards-sites h1{
+        font-size: 26px;
+        display: flex;
+        text-align: center;
+        left: 750px;
+    }
+
+   .color-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #eee;
+    position: relative;
+    top: -100px;
+    right: 5%;
+    width: 7000px;
+    text-align: center;
+  }
+  
+  .color-option {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s ease;
+
+  }
+  
+  .color-option:hover {
+    transform: scale(1.1);
+  }
+  
+  .color-options2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #eee;
+    position: relative;
+    top: -100px;
+    right: 1%;
+    width: 7000px;
+    text-align: center;
+  }
+  
+  .color-option2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s ease;
+  }
+  
+  .color-option2:hover {
+    transform: scale(1.1);
+  }
+  /* Input de cor personalizada */
+  .custom-color {
+    margin-top: -290px;
+    text-align: center;
+    position: relative;
+    right: -200px;
+    background: #fff;
+    width: 2100px;
+    top: 150px;
+  }
+  
+  .custom-color label {
+    font-size: 14px;
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+    right: 140px;
+    width: 70px;
+  }
+  
+  .custom-color input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-color2 {
+    margin-top: -290px;
+    text-align: center;
+    position: relative;
+    right: 140px;
+    width: 2100px;
+    top: 120px;
+  }
+  
+  .custom-color2 label {
+    font-size: 14px;
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+    right: 140px;
+  }
+  
+  .custom-color2 input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Botões fixos para trocar o fundo */
+  .background-buttons {
+    position: relative;
+    top: 90px;
+    right: -28%;
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    width: 5000px;
+    height: 60px;
+    top: 130px;
+    text-align: justify;
+  }
+  
+  .background-buttons label{
+    width: 100px;
+  }
+  .background-buttons2 label{
+    width: 100px;
+  }
+
+  .background-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .background-buttons button:hover {
+    opacity: 0.9;
+  }
+  
+  .background-buttons2 {
+    position: relative;
+    top: 90px;
+    right:32%;
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    width: 5000px;
+    height: 60px;
+  }
+  
+  .background-buttons2 button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .background-buttons2 button:hover {
+    opacity: 0.9;
+  }
+  /* Cores dos botões */
+  .background-buttons button[data-bg="white"] {
+    background-color: #fff;
+    color: #333;
+  }
+  .background-buttons button[data-bg="gray"] {
+    background-color: #ccc;
+    color: #333;
+  }
+  .background-buttons button[data-bg="black"] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* cores dos bortoes2 */
+  
+  .background-buttons2 button[data-bg="white"] {
+    background-color: #fff;
+    color: #333;
+  }
+  .background-buttons2 button[data-bg="gray"] {
+    background-color: #ccc;
+    color: #333;
+  }
+  .background-buttons2 button[data-bg="black"] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Cores das opções */
+  .color-option[data-color="#ff6b6b"] {
+    background-color: #ff6b6b;
+  }
+  .color-option[data-color="#6b5b95"] {
+    background-color: #6b5b95;
+  }
+  .color-option[data-color="#4ecdc4"] {
+    background-color: #4ecdc4;
+  }
+  .color-option[data-color="#ffd166"] {
+    background-color: #ffd166;
+  }
+  
+  /* cores das opcoes2 */
+  .color-option2[data-color="#ff6b6b"] {
+    background-color: #ff6b6b;
+  }
+  .color-option2[data-color="#6b5b95"] {
+    background-color: #6b5b95;
+  }
+  .color-option2[data-color="#4ecdc4"] {
+    background-color: #4ecdc4;
+  }
+  .color-option2[data-color="#ffd166"] {
+    background-color: #ffd166;
+  }
+  
+  .cards-sites .link1{
+position: relative;
+right: -600px;
+width: 2000px;
+font-size: 14px;
+height: 50px;
+  }
+  .cards-sites .link2{
+position: relative;
+width: 2000px;
+font-size: 14px;
+height: 50px;
+left: -600px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    /* Ajustes para telas grandes */
+/* 
+    .navbar{
+        width: 1024px;
+    } */
+
+    .navbar img{
+        width:170px;
+        height: 100px;
+    }
+
+    .navbar li{
+        font-size: 10px;
+        position: relative;
+        right: 50px;
+        margin: -30px;
+    }
+
+    .introducao img {
+        right: -650px;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 70px;
+    }
+
+    .introducao h1{
+        font-size: 20px;
+        
+    }
+
+    .introducao p{
+        font-size: 16px;
+        position: relative;
+        left: 80px;
+    }
+
+    .introducao a button{
+        position: relative;
+        left: 250px;
+    }
+
+
+    .video1, .video2{
+        height: 300px;
+        width: 2000px;
+        position: relative;
+        top: -100px;
+    }
+
+    
+    .oferecimento p{
+        position: relative;
+        left: 10px;
+        top: -130px;
+    }
+    
+    .oferecimento h1{
+        position: relative;
+        top: -130px;
+    }
+
+    .divs, .div-empresa, .incentivo {
+        width: 100%;
+    }
+    
+    .div1{
+        position: relative;
+        right: -1050px;
+        width: 800px;
+        height: 500px;
+        top: 30px;
+        align-items: center;
+        display: flex;
+    }
+
+    .div1 h5{
+    position: relative;
+    top: -150px;
+    }
+    .div1 p{
+        position: relative;
+        top: 30px;
+        font-size: 20px;
+        left: -100px;
+    }
+    .div1 img{
+        position: relative;
+        left: -740px;
+        top: 140px;
+        width: 200px;
+        height: 300px;
+    }
+
+
+    .div2{
+        top: 550px;
+        right: -250px ;
+       position: relative;
+       width: 800px;
+    }
+    .div2 h5{
+        position: relative;
+        top: 100px;
+        right: -230px ;
+        }
+        .div2 p{
+            position: relative;
+            top: 200px;
+            font-size: 20px;
+            left: -150px;
+        }
+
+
+
+    .div3{
+        top: 1000px;
+        right:550px ;
+        position: relative;
+        width: 800px;
+    }
+    .div3 h1{
+        position: relative;
+        right:-200px;
+        }
+        .div3 h5{
+            position: relative;
+            top: 200px;
+            font-size: 20px;
+            right: 200px;
+        }
+
+    .planos h1{
+        right: -300px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -200px;
+    }
+    .planos .texto {
+        left: -200px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .wrapper2 {
+        width: 1000px;
+        right: 70px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .wrapper2 .cards-sobre-mim{
+        width: 250px;
+        height: 300px;
+    }
+    .wrapper2 .cards-sobre-mim::before{
+        width: 250px;
+        height: 300px;
+    }
+
+    .wrapper2 .cards-sobre-mim img{
+        width: 250px;
+        height: 300px;
+    }
+
+    .planos .textos{
+        position: relative;
+        left: -200px;
+    }
+
+        .categorias-sites {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .categorias p{
+        position: relative;
+        left: -10px;
+    }
+    
+    .video3 {
+        position: relative;
+        left: 50px;
+        width: 700px;
+
+    }
+    .video3 h1{
+        position: relative;
+        left: -280px;
+    }
+    .video3 p{
+        position: relative;
+        left: -280px;
+    }
+
+    .video3 .bg-button{
+        position: relative;
+        right: -250px;
+    }
+
+    .video4 {
+        position: relative;
+        right: -100px;
+        width: 700px;
+    }
+
+    .video4 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video4 h1,p{
+        position: relative;
+        left: 400px;
+    }
+
+    .video5{
+        position: relative;
+        left: -600px;
+        width: 700px;
+    }
+    .video5 h1{
+        position: relative;
+        right: 300px;
+    }
+    .video5 p{
+        position: relative;
+        left: -300px;
+    }
+
+    .video5 .bg-button{
+        position: relative;
+        right: -260px;
+    }
+
+    .video6{
+        width: 700px;
+        position: relative;
+        left: -500px;
+    }
+
+    .video6 .bg-button{
+        position: relative;
+        right: 50px;
+    }
+
+    .video6 h1{
+        position: relative;
+        right: -400px;
+    }
+    .video6 p{
+        position: relative;
+        left: 400px;
+    }
+    
+    .contato {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+    .contato h1 {
+        position: relative;
+        top: -450px;
+    }
+    
+    .contato img {
+        width: 50%;
+        max-width: 400px;
+        height: 500px;
+        top: 250px;
+        left: -300px;
+    }
+    
+    .contato form {
+        position: relative;
+        width: 100%;
+        right: -400px;
+        top: -300px;
+    }
+    
+    .contato form .button-form{
+        position: relative;
+        width: 100%;
+        right: 150px;
+        top: 60px;
+    }
+    
+    .contato input {
+        width: 500px;
+        height: 60px;
+    }
+    
+    .imagem-empresa img {
+        width: 50%;
+        height: 400px;
+        position: relative;
+        right: -250px;
+        top: 70px;
+    }
+
+    .div-empresa h1{
+        position: relative;
+        top:50px;
+    }
+
+    
+    .div-empresa .apresentacao-empresa{
+        position: relative;
+        top: 300px;
+        left: 0;
+    }
+    
+    .apresentacao-empresa h1{
+        position: relative;
+        left: -320px;
+        
+    }
+
+    
+    .apresentacao-empresa p{
+        position: relative;
+        left: 200px;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .apresentacao-empresa .btn2 {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+        left: 400px;
+    }
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        top:200px;
+        left:10px;
+    }
+
+    .redes{
+        position: relative;
+        top:100px;
+        left:10px;
+    }
+    
+    .container-card3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .participantes h1{
+        position: relative;
+        top: 130px;
+    }
+
+    
+   section .grid-planos .plano .preco-plano{
+    position: relative;
+    left: 5px;
+
+  }
+
+  .secao-portfolio .projeto p{
+    position: relative;
+    left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px){
+    /* .navbar-collapse {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    } */
+
+
+    .introducao{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-introducao{
+        width: 500px;
+        height: 100px;
+        position: relative;
+        top: - 50px;
+        left: -470px;
+    }
+
+    .introducao h1{
+        font-size: 20px;
+        position: relative;
+        top: 500px;
+        display: flex;
+        justify-content: center;
+        left: 5px;
+    }
+
+    .introducao p{
+        font-size: 16px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 500px;
+        left: 5px;
+    }
+
+    .introducao .texto button{
+        position: relative;
+        left: 220px;
+        top: 500px;
+    }
+
+
+.video1, .video2{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+    
+    .oferecimento p{
+        position: relative;
+        left: 10px;
+        top: -130px;
+        text-align: center;
+    }
+    
+    .oferecimento h1{
+        position: relative;
+        top: -130px;
+        text-align: center;
+    }
+
+    .divs, .div-empresa, .incentivo {
+        width: 100%;
+    }
+    
+    .div1{
+        position: relative;
+        right: -800px;
+        width: 550px;
+        height: 500px;
+        top: 30px;
+        align-items: center;
+        display: flex;
+    }
+
+    .div1 h5{
+    position: relative;
+    top: -100px;
+    right: -120px;
+    }
+    .div1 p{
+        position: relative;
+        top: 70px;
+        font-size: 20px;
+        left: -220px;
+    }
+    .div1 img{
+        position: relative;
+        top: 190px;
+        width: 200px;
+        height: 200px;
+        left: -750px;
+    }
+
+    .div2{
+        top: 550px;
+        right: -250px ;
+       position: relative;
+       width: 550px;
+    }
+    .div2 h5{
+        position: relative;
+        top: 100px;
+        right: -100px ;
+        }
+        .div2 p{
+            position: relative;
+            top: 200px;
+            font-size: 20px;
+            left: -200px;
+            text-align: justify;
+            width: 400px;
+        }
+
+
+
+    .div3{
+        top: 1000px;
+        right: 290px ;
+        position: relative;
+        width: 550px;
+    }
+    .div3 h1{
+        position: relative;
+        right:-140px;
+        }
+        .div3 h5{
+            position: relative;
+            top: 200px;
+            font-size: 20px;
+            right: 140px;
+        }
+
+    .planos h1{
+        right: -150px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -200px;
+        font-size: 24px;
+    }
+    .planos .textos {
+        left: -170px;
+
+        position: relative;
+        top:-100px;
+        font-size: 24px;
+    }
+
+    .wrapper2 {
+        width: 700px;
+        right: 80px;
+        flex-wrap: wrap;
+        top: 140px;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .wrapper2 .cards-sobre-mim{
+        width: 150px;
+        height: 200px;
+    }
+    .wrapper2 .cards-sobre-mim::before{
+        width: 150px;
+        height: 200px;
+    }
+
+    .wrapper2 .cards-sobre-mim img{
+        width: 150px;
+        height: 200px;
+    }
+
+    .info{
+        width: 200px;
+        position: relative;
+        top: 30px;
+    }
+
+    .info h2{
+        width: 200px;
+    }
+
+    .info p{
+        width: 100px;
+        position: relative;
+        left: -1px;
+    }
+    .info a{
+        width: 100px;
+        position: relative;
+        left: -130px;
+    }
+
+    .categorias-sites {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .categorias p{
+        position: relative;
+        left: -5px;
+        top: -200px;
+        font-size: 16px;
+    }
+    
+    .categorias h1{
+        position: relative;
+        left: -5px;
+        top: -200px;
+        font-size: 20px;
+    }
+    
+    .video3 {
+        position: relative;
+        left:200px;
+        max-width: 800px;
+        max-height: 300px;
+        top: 700px;
+    }
+    .video3 h1{
+        position: relative;
+        left: -750px;
+        text-align: center;
+        top: -70px;
+    }
+    .video3 p{
+    color: #fff;
+    }
+
+
+
+    .video4 {
+        position: relative;
+        left:-60px;
+        max-width: 800px;
+        max-height: 300px;
+        top: 1140px;
+    }
+
+
+    .video4 h1{
+        position: relative;
+        left: 840px;
+        top: -20px;
+        text-align: center;
+    }
+
+    .video4 p{
+        position: relative;
+        left: 400px;
+        color: #fff;
+    }
+
+    .video5{
+        position: relative;
+        left:-330px;
+        max-width: 800px;
+        max-height: 300px;
+        top: 1540px;
+    }
+    .video5 h1{
+        position: relative;
+        right:750px;
+        text-align: center;
+    }
+    .video5 p{
+        position: relative;
+        left: -300px;
+    }
+
+
+
+    .video6{
+        position: relative;
+        left:-590px;
+        max-width: 800px;
+        max-height: 300px;
+        top: 2040px;
+    }
+
+
+
+    .video6 h1{
+        position: relative;
+        right: -840px;
+        text-align: center;
+    }
+    .video6 p{
+        position: relative;
+        left: 400px;
+        color: #fff;
+    }
+
+    .bg-button{
+        position: relative;
+        top: 130px;
+        left: 90px;
+    }
+    
+    .contato {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    .contato img {
+        width: 100%;
+        max-width: 400px;
+        top: 100px;
+        height: 400px;
+        left: 0;
+    }
+    
+    .contato form {
+        position: static;
+        width: 100%;
+    }
+    
+    .contato input {
+        width: 100%;
+        height: 60px;
+    }
+    .contato form .button-form{
+        position: relative;
+        left: 0px;
+    }
+    
+    .imagem-empresa img {
+        width: 50%;
+        height: 400px;
+        position: relative;
+        right: -250px;
+        top: 70px;
+    }
+
+    .apresentacao-empresa{
+        position: relative;
+        top: 300px;
+    }
+    
+    .apresentacao-empresa h1{
+        position: relative;
+        left: -160px;
+    }
+
+    
+    .apresentacao-empresa p{
+        position: relative;
+        left:10px;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .div-empresa .imagem-empresa img{
+        position: relative;
+        left: 100px;
+        
+    }
+
+    .apresentacao-empresa .btn2 {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+        left: 200px;
+    }
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        top:200px;
+        left:10px;
+    }
+
+    .redes{
+        position: relative;
+        top:100px;
+        left:10px;
+    }
+    
+    .container-card3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .participantes h1{
+        position: relative;
+        top: 130px;
+    }
+    
+    .login {
+        margin: 10px auto;
+        display: block;
+    }
+    
+    .button {
+        margin: 10px auto;
+    }
+    
+    .modal_container {
+        width: 90%;
+    }
+    
+    .iframe_container iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+    
+    
+    .container3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .glass {
+        margin: 10px;
+    }
+    
+    .video3, .video4, .video5, .video6 {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    
+    .bg-button {
+        right: 10px !important;
+    }
+    
+    .descricao {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .contato input {
+        height: 50px;
+    }
+    
+    .imagem-empresa img {
+        width: 70%;
+    }
+}

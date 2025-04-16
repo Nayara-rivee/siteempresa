@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Syne+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #17171f;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0,0, .212);
+    background: #fff;
+}
+
+.form-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c368f8; /* Cor escura sem transparência */
+    padding: 2rem;
+    position: absolute;
+    top: 10; /* Ajuste para cobrir a área correta */
+    width: 50%; /* Ajuste para cobrir metade do contêiner */
+    height: 100%; /* Ajuste para cobrir toda a altura */
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    border-radius: 150px 0 0 100px;
+    z-index: 1000;
+  }
+
+
+.form-image .toggle{
+    overflow: hidden;
+    transition: all 0.6ss ease-in-out;
+    z-index: 1000;
+    border-radius: 0 20px 20px 0;
+    position: relative;
+    height: 600px;
+    width: 600px;
+}
+
+.form-image .toggle h1,p{
+    color: #fff;
+    position: relative;
+    top: 150px;
+    right: 150px;
+
+}
+
+
+.container.active .form-image.toggle{
+    transform: translateX(-100%);
+    
+}
+
+.container.active .form-image.toggle p{
+    position: relative;
+    
+}
+
+.form-image img{
+    width: 31rem;
+    position: relative;
+    }
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.form-header-sing-in{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+}
+
+.login-button button{
+    border: none;
+    background: #7936af;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover{
+    background-color: #55287a;
+}
+
+.login-button button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #7936af;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.form-header-sing-in  h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #7936af;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-group-sing-in{
+    width: 400px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover{
+    background-color: #dcdcdc;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid #7936af;
+}
+
+.input-box label, .gender-title h6{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder{
+    color: #000000be;
+}
+
+.sobrenome {
+    position: relative;
+    right: -90px;
+
+}
+
+.gender-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.gender-input{
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input{
+    margin-right: 0.35rem;
+}
+
+.gender-input label{
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #7936af;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover{
+    background-color: #55287a;
+}
+
+.continue-button button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+.continue-button input{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #7936af;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button input:hover{
+    background-color: #55287a;
+}
+
+.continue-button input{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media screen and (max-width: 1330px) {
+    .form-image{
+        display: none;
+    }
+    .container{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction:column ;
+        overflow-y:scroll ;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+}
+
+/* parte2 */
+
+.form-image{
+    position: absolute;
+    top: 10;
+    left: 50%;
+    width: 40%;
+    height: 80%;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    border-radius: 150px 0 0 100px;
+    z-index: 1000;
+}
+
+.container.active .form-image{
+    transform: translateX(-100%);
+    border-radius: 0 150px 100px 0;
+    
+}
+
+.container.active .toggle{
+    transform: translateX(50%);
+    position: relative;
+    right: 230px;
+}
+
+.toggle-panel{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    top: 0;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+}
+
+.toggle-left{
+    transform: translateX(-200%);
+}
+
+.toggle-left a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.toggle-right a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container.active .toggle-left{
+    transform: translateX(0);
+}
+
+.container.active .toggle-left{
+    transform: translateX(0);
+    position: absolute;
+    right: -500px;
+    
+}
+
+.container.active .toggle-left button{
+    transform: translateX(0);
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #ffffff;
+    top: 550px;
+    right: 900px;
+    cursor: pointer;
+}
+
+.toggle-right{
+    right: 0;
+    transform: translateX(0);
+}
+
+.toggle-right button{
+    right: 250px;
+    transform: translateX(0);
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #ffffff;
+    top: 550px;
+    cursor: pointer;
+}
+
+.container.active .toggle-right{
+    transform: translateX(200%);
+    position: absolute;
+    right: 500px;
+}
+
+
+
+.container.active .toggle-right{
+    transform: translateX(200%);
+    
+}
+
+.container.active .toggle-panel p{
+    position: relative;
+    right: 800px;
+}
+
+.container.active .toggle-panel h1{
+    position: relative;
+    right: 800px;
+}
+
+@keyframes move{
+    0%,49.99%{
+        opacity: 0;
+        z-index: 1;
+    }
+    50%, 100%{
+        opacity: 1;
+        z-index: 5;
+    }
+}
+
+/* link de esqueceu a senha */
+
+.form-container .link-recup-senha a{
+    color: #000;
+
+}

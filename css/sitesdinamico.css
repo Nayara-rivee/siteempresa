@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* navbar */
+
+nav{
+    height:100px;
+}
+
+/* introducao */
+.container-image img{
+    width: 600px;
+    height: 700px;
+    position: relative;
+    right: 17%;
+}
+
+.introducao h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: -20%;
+    top: -400px;
+}
+
+.introducao p{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: -33%;
+    top: -400px;
+    text-align: center;
+    width: 1200px;
+}
+
+.introducao button{
+    background: #680cd1c5;
+    border-radius: 20px;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    right: -70%;
+    top: -350px;
+}
+
+.introducao button a{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* explicacao */  
+  .botao {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    height: 70px;
+    width: 70px;
+    color: #fff;
+    font-size: 1.3rem;
+    background: linear-gradient(to right, #31fa9f, #a9e050);
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 0px rgba(51, 51, 51, 0.061);
+    position: relative;
+    top: 15px;
+    
+  }
+  
+  .botao2 {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    height: 70px;
+    width: 70px;
+    color: #fff;
+    font-size: 1.3rem;
+    background: linear-gradient(to right, #31fa9f, #a9e050);
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 0px rgba(51, 51, 51, 0.061);
+    position: relative;
+    top: 15px;
+    right: 15px;
+  }
+  
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+    }
+    100% {
+      box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+    }
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.411);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 0.3s ease-out;
+  }
+  
+  .modal.show {
+    visibility: visible;
+    pointer-events: all;
+    opacity: 1;
+  }
+  
+  .modal_container {
+    width: 100%;
+    max-width: 800px;
+    padding: 0 10px;
+    position: relative;
+  }
+  
+  .iframe_container #close {
+    font-size: 1.75rem;
+    float: right;
+    color: #fff;
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  .iframe_container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  
+  .iframe_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .video1 {
+    background: #31fa9f;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+    border-radius: 20px;
+  }
+  
+  .video2 {
+    background: #31fa9f;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+    border-radius: 20px;
+  }
+
+  .video3 {
+    background: #31fa9f;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    top: -100px;
+    position: relative;
+    border-radius: 20px;
+    margin: 100px 100px;
+  }
+
+
+
+  .bg-button2 {
+    position: relative;
+    background: #fff;
+    top: 260px;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    border-radius: 100px;
+    right: -200px;
+      }
+
+      .conteudo h2, p{
+        color: #000000;
+        position: relative;
+        right: 50px;
+      }
+
+  /* contato */
+
+  .contato{
+    width: 100%;
+    background: #dcdcdc;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+  }
+  
+  .contato h1{
+    position: relative;
+    top: -350px;
+    display: flex;
+    right: -100px;
+    width:800px;
+  }
+  
+  .contato img{
+  
+    width: 600px;
+    height: 600px;
+  position: relative;
+  margin: 0 30px;
+  }
+  
+  .contato form{
+    position: relative;
+    right: 200px;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+   .button-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .button-form a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .button-form button{
+    width: 200px;
+    height: 80px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  background: #da3f8c;
+  border: none;
+  top: -200px;
+  position: relative;
+  }
+  
+  .contato .name{
+    position: relative;
+    right: 100px;
+    top: 35px;
+
+  }
+
+  .contato .email{
+    position: relative;
+    left: 480px;
+    top: -100px;
+  }
+
+  .contato .tell{
+    margin: 30px 0;
+    position: relative;
+    top: -50px;
+    right: 100px;
+  }
+  
+  .contato textarea{
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+    top: -230px;
+    position: relative;
+    left: 480px;
+  }
+
+
+  .contato input{
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 100px;
+  }
+  
+  .contato label{
+    color: #474747;
+    font-size: 24px;
+    display: flex;
+  }
+
+  .meios-contato{
+    position: relative;
+    top: 300px;
+    right: 200px;
+    background: #474747;
+    width: 800px;
+    height: 300px;
+    border-radius: 50px 50px 70px 0;
+  }
+
+  .meios-contato p{
+    position: relative;
+    right: -0px;
+    top: 40px;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .meios-contato h4{
+    font-size: 32px;
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    right: -100px;
+    top: 20px;
+  }
