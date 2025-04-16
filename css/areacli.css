@@ -69,3 +69,34 @@ body {
     left: 120px;
 }
 
+body {
+    font-size: 0.9rem; /* diminui o tamanho padrão da fonte */
+  }
+  
+  h1, h2, h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .table {
+    font-size: 0.85rem;
+  }
+  
+  .table th, .table td {
+    padding: 0.4rem;
+  }
+  
+  .list-group-item {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+  
+  .container, .container-fluid {
+    padding: 10px 15px;
+  }
+  
+  .navbar .btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.85rem;
+  }
+  

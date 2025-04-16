@@ -39,4 +39,35 @@ const section = document.querySelector("main"),
         })
       })
 
+    // planos
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const botoes = document.querySelectorAll(".selecionar-plano");
+    const planos = document.querySelectorAll(".plano");
+
+    botoes.forEach((botao, index) => {
+      botao.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        // Remove destaque anterior
+        planos.forEach(plano => plano.classList.remove("selecionado"));
+        botoes.forEach(btn => btn.textContent = "Escolher");
+
+        // Adiciona destaque ao plano clicado
+        planos[index].classList.add("selecionado");
+        botao.textContent = "Selecionado";
+      });
+    });
+  });
+
+// login
+ // Se o usuário estiver logado, mostra "Minha conta"
+ if (localStorage.getItem("usuarioLogado") === "true") {
+    const minhaConta = document.getElementById("minhaConta");
+    if (minhaConta) {
+      minhaConta.style.display = "block";
+    }
+  }
+
 

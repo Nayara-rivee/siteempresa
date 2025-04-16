@@ -1,6 +1,8 @@
+
   /* navbar */
   .navbar {
-    box-shadow: 0px 5px 20px rgba(136, 135, 135, 0.5);
+    box-shadow: 0px 20px 20px rgba(36, 36, 36, 0.5);
+    background: #17171F;
   }
   
   .navbar-collapse .navbar-nav .nav-item a {
@@ -11,7 +13,10 @@
   }
   .navbar-collapse .navbar-nav .nav-item a:hover {
     transition: 0.5s;
-    color: #3d820f;
+    color: #0ab8a1;
+  }
+  .navbar-collapse .navbar-nav .nav-item a{
+    color: #fff;
   }
   
   .dropdown-menu{
@@ -25,18 +30,57 @@
   
   .login {
     margin: 20px 15px;
-    color: #fff;
-    background: #8d1fb8;
+    color: #000;
+    border:2px #0ab8a1 solid;
     position: relative;
-    max-width: 100px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+    background: #eeeeee;
+  }
+  
+  .cadastrar {
+    margin: 20px 15px;
+    color: #000;
+    border:2px #0ab8a1 solid;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    background: #eeeeee;
+  }
+  
+  .logout {
+    margin: 20px 15px;
+    color: #000;
+    border:2px #0ab8a1 solid;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    background: #eeeeee;
+  }
+  .cadastrar:hover {
+    transition: 1s;
+    background: #17171F;
+    color: #fff;
   }
   
   .login:hover {
     transition: 1s;
-    background: #ffffff;
-    color: black;
+    background: #17171F;
+    color: #fff;
+  }
+  .logout:hover {
+    transition: 1s;
+    background: #17171F;
+    color: #fff;
   }
   
   /* mode do background */
@@ -87,7 +131,7 @@
   /* introdução */
   
   .introducao {
-    background: #084a4e;
+    background: #f2f2f8;
     width: 100%;
     height: 800px;
   }
@@ -99,21 +143,24 @@
     display: flex;
     right: -1300px;
     top: -60px;
-    background: #ffffff;
-    border-radius: 50%;
+    background: none;
+
   }
   
   .introducao h1 {
-    color: #fff;
+    color: #000;
     top: 300px;
     position: relative;
+    font-size: 32px;
+    right: -100px;
   }
   
   .introducao p {
-    color: #fff;
+    color: #000;
     top: 350px;
     font-size: 24px;
     position: relative;
+    right: -150px;
   }
   
   .introducao button {
@@ -123,11 +170,13 @@
     top: 370px;
     position: relative;
     transition: 1s;
-    background: #fff;
+    background: #303030;
+    right: -450px;
+    color: #fff;
   }
   
   .introducao button:hover {
-    background: #0f9dd4;
+    background: #7096ca;
     transition: 1s;
     color: #fff;
   }
@@ -369,49 +418,65 @@
     justify-content: center;
     align-content: center;
     top: 300px;
-    background-color: #080808;
+    background-color: #17171f;
   }
   
   .div1 {
-    background: #0f9dd4;
-    height: 800px;
+    background: #20dac1;
+    height: 900px;
     width: 800px;
     position: relative;
     display: flex;
     top: 200px;
-    right: -50px;
+    right: -400px;
     border-radius: 10px;
+    top: 250px;
   }
   
-  .div1 h5 {
+  .titulo-div h5 {
     font-size: 2em;
-    color: #fff;
-    width: 1000px;
+    text-align: center;
+    color: #17171f;
     position: relative;
     right: -250px;
-    text-align: center;
     top: 150px;
+    width: 300px;
   }
+
+
   
-  .div1 p {
-    font-size: 28px;
+  .descricao-div1 p {
+    font-size: 25px;
     text-align: center;
-    color: #fff;
-    width: 1500px;
-    top: 350px;
+    color: #17171f;
+    width: 400px;
+    top: 250px;
+    display: flex;
+    justify-content: center;
     position: relative;
-    right: 150px;
+    right: 80px;
+    text-align: justify;
+  }
+  .div1 img{
+    width: 400px;
+    height: 400px;
+    top: 550px;
+    display: flex;
+    left: -750px;
+    position: relative;
   }
   
   .div2 {
-    background: #d4360f;
+    background: #b366d1;
     height: 400px;
     width: 500px;
     position: relative;
     display: flex;
     top: 130px;
-    right: -100px;
+    justify-content: center;
+    right: -500px;
     border-radius: 10px;
+    top: 250px;
   }
   
   .div2 h5 {
@@ -435,14 +500,16 @@
   }
   
   .div3 {
-    background: #d40fa9;
+    background: #7096ca;
     height: 400px;
     width: 500px;
     position: relative;
     display: flex;
     top: 560px;
-    right: 350px;
+    margin-right: 500px;
     border-radius: 10px;
+    justify-content: center;
+    top: 750px;
   }
   
   .div3 h5 {
@@ -453,18 +520,20 @@
     right: 110px;
     text-align: center;
     top: 150px;
+    text-align: justify;
   }
   .div3 h1 {
     font-size: 2em;
     color: #fff;
     width: 1000px;
     position: relative;
-    right: -150px;
+    right: -130px;
     text-align: center;
     top: 50px;
+
   }
   
-  /* planos */
+  /* planos
   
   .planos {
     display: flex;
@@ -640,7 +709,7 @@
     color: #000;
     transition: all 0.6s ease-in-out;
     background: #fff;
-  }
+  } */
   
   /* icons participantes */
   .cards-sobre-mim .info .media-icons {
@@ -978,73 +1047,6 @@
     top: -7px;
   }
   
-  
-    /* botão de login */
-    
-    .login {
-      margin: 20px 15px;
-      color: #fff;
-      background: #8d1fb8;
-      position: relative;
-      max-width: 100px;
-      cursor: pointer;
-      transition: 1s;
-    }
-    
-    .login:hover {
-      transition: 1s;
-      background: #ffffff;
-      color: black;
-    }
-    
-    /* mode do background */
-    body {
-      overflow-x: hidden;
-      transition: background 1s;
-    }
-    
-    .button {
-      position: relative;
-      width: 100px;
-      height: 40px;
-      border-radius: 25px;
-      box-shadow: 0 0 2.5px 0 #39a2db59;
-      cursor: pointer;
-      right: 10px;
-      background-color: #ffffff;
-    }
-    
-    .ball {
-      position: relative;
-      top: 0;
-      left: 0;
-      width: 40px;
-      height: 100%;
-      border-radius: 50%;
-      background: #39a2db;
-      transition: left 1s;
-    }
-    
-    .ball-move.navbar {
-      box-shadow: 0px 5px 20px rgba(136, 135, 135, 0.5);
-    }
-    
-    .ball-move {
-      left: calc(100% - 40px);
-    }
-    
-    .ball-move.ball {
-      left: calc(100% - 40px);
-      background: #084a4e;
-    }
-    
-    .dark {
-      background-color: #39a2db;
-    }
-    
-    
-   
-   
     /* rodapé */
     
     .rodape {
@@ -1270,7 +1272,8 @@
       position: relative;
       top: -300px;
       display: flex;
-      right: -100px;
+      right: -200px;
+      text-align: center;
     }
     
     .contato img{
@@ -1279,6 +1282,7 @@
       height: 600px;
     position: relative;
     margin: 0 30px;
+    right: -200px;
     }
     
     .contato form{
@@ -1307,7 +1311,7 @@
       display: flex;
       justify-content: center;
     align-items: center;
-    background: #da3f8c;
+    background: #9883e4;
     border: none;
     }
     
@@ -1358,15 +1362,25 @@
     }
     
     .imagem-empresa img {
-      height: 50%;
-      width: 30%;
+      height: 600px;
+      width: 700px;
       border: 3px solid #ffff;
       border-radius: 50%;
       object-fit: cover;
       position: relative;
       top: 200px;
+      right: -100px;
     }
-    
+    .div-empresa h1{
+      position: relative;
+      top: 100px;
+    }
+    .div-empresa .apresentacao-empresa {
+      position: relative;
+      top: -100px;
+      right: -200px;
+    }
+
     .div-empresa .apresentacao-empresa .btn2 {
       background: #0f9dd4;
       color: #fff;
@@ -1397,6 +1411,7 @@
       width: 600px;
       color: #fff;
       right: -800px;
+      text-align: justify;
     }
     
     .div-empresa .container3 {
@@ -1762,3 +1777,241 @@ height: 500px;
     flex-direction: row;
     right: -100px;
   }
+
+
+  .secao-servicos, .secao-planos {
+    padding: 4rem 1rem;
+    background-color: #fff;
+  }
+  
+  .secao-planos {
+    background-color: #f7f7f7;
+  }
+  
+  .titulo-secao {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  .grid-servicos, .grid-planos {
+    display: grid;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .grid-servicos {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .grid-planos {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  .servico, .plano {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  
+  .plano.destaque {
+    border: 2px solid #2563eb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .titulo-servico, .titulo-plano {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .preco-plano {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2563eb;
+    margin-bottom: 1rem;
+  }
+  
+  .lista-beneficios {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .lista-beneficios li {
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+    color: #444;
+  }
+  
+  .botao-escolher {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-escolher:hover {
+    background-color: #1e40af;
+  }
+  
+
+  .secao-portfolio {
+    padding: 4rem 1rem;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .titulo-secao {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .grid-portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .projeto {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .projeto img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+  
+  .projeto h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .projeto:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Seção de Planos */
+.secao-planos {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.titulo-secao {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.grid-planos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Estilo base dos planos */
+.plano {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.plano:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+/* Destaque para o plano do meio */
+.plano.destaque {
+  border: 2px solid #2563eb;
+  box-shadow: 0 0 24px rgba(37, 99, 235, 0.2);
+}
+
+/* Título e preço */
+.titulo-plano {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.preco-plano {
+  font-size: 2rem;
+  color: #2563eb;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Lista de benefícios */
+.lista-beneficios {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.lista-beneficios li {
+  margin: 0.4rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.lista-beneficios li::before {
+  content: '';
+  display: inline-block;
+  width: 1.2rem;
+}
+
+/* Estilo para ícones ✔ e ✖ */
+.lista-beneficios li:has(> span.check) {
+  color: #4c1d95;
+}
+.lista-beneficios li:has(> span.nao) {
+  color: #9ca3af;
+}
+
+/* Botão */
+.botao-escolher {
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  background-color: #2563eb;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.botao-escolher:hover {
+  background-color: #1e40af;
+}
+
+
+.plano.selecionado {
+  border: 2px solid #10b981;
+  box-shadow: 0 0 24px rgba(16, 185, 129, 0.3);
+  transform: scale(1.05);
+}
+
+.plano.selecionado .botao-escolher {
+  background-color: #10b981;
+}

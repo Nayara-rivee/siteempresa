@@ -1,3 +1,8 @@
+<?php
+session_start();
+$usuarioLogado = isset($_SESSION['email']);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,20 +13,21 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/inicio.css" />
+  <link rel="stylesheet" href="./css/homesite.css" />
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/gh/codeOpacity/op_icons@main/op_icons.all.min.css" rel="stylesheet" />
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/responsive2.css">
+  <link rel="stylesheet" href="./css/responsive.css">
 
 
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <img src="./img/logo.png" alt="Logo" width="280" height="120" class="d-inline-block align-text-top" />
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -57,9 +63,12 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#div-empresa">Sobre a embresa</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="cliente.php">Minha conta</a>
-          </li>
+          <?php if ($usuarioLogado): ?>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="cliente.php">Minha conta</a>
+            </li>
+          <?php endif; ?>
+
         </ul>
       </div>
     </div>
@@ -67,9 +76,19 @@
       <div class="ball"></div>
     </div>
 
-    <div>
-      <a href="login.php"><button class="login" type="submit">login</button></a>
-    </div>
+    <?php if ($usuarioLogado): ?>
+  <div>
+    <a href="sair.php"><button class="logout" type="submit">Desconectar-se</button></a>
+  </div>
+<?php else: ?>
+  <div>
+    <a href="login.php"><button class="cadastrar" type="submit">Cadastrar-se</button></a>
+  </div>
+  <div>
+    <a href="login.php"><button class="login" type="submit">Login</button></a>
+  </div>
+<?php endif; ?>
+
   </nav>
   <div class="introducao">
     <div class="texto">
@@ -80,7 +99,7 @@
       <a href="planoseprodutos.php"><button>Criar website</button></a>
     </div>
     <div class="img-introducao">
-      <img src="./img/imageminicio.png" alt="" />
+      <img src="./img/undraw_designer_efwz.svg" alt="" />
     </div>
   </div>
   <br /><br /><br />
@@ -89,6 +108,7 @@
     <p>
       Crie um site e monte seu futuro desde do zero á vendas internacionais
     </p>
+
     <br /><br /><br />
     <div class="main">
       <div class="video1">
@@ -98,7 +118,7 @@
           <div class="modal_container">
             <span class="close" data-modal="video1">&times;</span>
             <div class="iframe_container">
-              <iframe width="560" height="315" src="./img/2024-11-29 19-46-56.mp4" title="YouTube video player"
+              <iframe width="560" height="315" src="./img/2025-03-21 16-24-0.mp4" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -116,7 +136,7 @@
           <div class="modal_container">
             <span class="close" data-modal="video2">&times;</span>
             <div class="iframe_container">
-              <iframe width="560" height="315" src="./img/2024-11-29 16-43-52.mp4" title="YouTube video player"
+              <iframe width="560" height="315" src="./img/2025-03-21 16-06-1.mp4" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -126,18 +146,25 @@
       </div>
     </div>
   </div>
+  <br><br><br><br><br>
 
 
-
+  <!-- Serviços -->
   <div class="divs">
+
     <div class="div1">
-      <h5>Seja livre para criar o que quiser!</h5>
-      <p>
-        Separe um tempinho do seu dia para aprender conosco! Além de aprender,
-        em seus projetos você que dará seu toque pessoal, registrando sua
-        marca, um pedaçinho de si mesmo naquele trabalho que talvez tenha uma
-        dificuldade no que fazer
-      </p>
+      <div class="titulo-div">
+        <h5>Seja livre para criar o que quiser!</h5>
+      </div>
+      <div class="descricao-div1">
+        <p>
+          Separe um tempinho do seu dia para aprender conosco! Além de aprender,
+          em seus projetos você que dará seu toque pessoal, registrando sua
+          marca, um pedaçinho de si mesmo naquele trabalho que talvez tenha uma
+          dificuldade no que fazer
+        </p>
+      </div>
+      <img src="./img/folhinha.png" alt="">
     </div>
     <div class="div2">
       <h5>Sem criatividade?</h5>
@@ -151,51 +178,97 @@
       </h5>
     </div>
   </div>
-
-  <br /><br /><br />
-
-  <div class="planos">
-    <h1>Escolha o melhor plano para você!</h1>
-    <br />
-    <p class="textos">
-      Escolha a sua melhor forma de começar a investir no seu futuro!
-    </p>
-  </div>
-
-  <div class="integrantes">
-    <div class="container-card2">
-      <div class="wrapper2">
-        <div class="cards-sobre-mim">
-          <img src="img/imagem1.jpeg" alt="" />
-          <div class="info">
-            <h2>Conteúdo</h2>
-            <p>descrição do conteúdo do card</p>
-            <a href="planoseprodutos.php"><button>Saiba mais</button></a>
-          </div>
-        </div>
-
-        <div class="cards-sobre-mim">
-          <img src="img/imagem3.jpeg" alt="" />
-          <div class="info">
-            <h2>Conteúdo</h2>
-            <p>descrição do conteúdo do card</p>
-            <a href="planoseprodutos.php"><button>Saiba mais</button></a>
-          </div>
-        </div>
-
-        <div class="cards-sobre-mim ultimo">
-          <img src="img/imagem1.jpeg" alt="" />
-          <div class="info">
-            <h2>Conteúdo</h2>
-            <p>descrição do conteúdo do card</p>
-            <a href="planoseprodutos.php"><button>Saiba mais</button></a>
-          </div>
-        </div>
-      </div>
+  <!-- <section id="servicos" class="secao-servicos">
+  <h3 class="titulo-secao">Nossos Serviços</h3>
+  <div class="grid-servicos">
+    <div class="servico">
+      <h4 class="titulo-servico">🚀 Criação de Sites Profissionais</h4>
+      <p>Sites rápidos, seguros e adaptáveis a qualquer dispositivo.</p>
+    </div>
+    <div class="servico">
+      <h4 class="titulo-servico">🎨 Design Responsivo</h4>
+      <p>Layout moderno e exclusivo para sua marca se destacar.</p>
+    </div>
+    <div class="servico">
+      <h4 class="titulo-servico">🔗 Integração com redes sociais</h4>
+      <p>Conecte seu site com Instagram, WhatsApp, Facebook e mais.</p>
+    </div>
+    <div class="servico">
+      <h4 class="titulo-servico">🛠 Suporte Técnico</h4>
+      <p>Acompanhamento e manutenção para que tudo funcione bem sempre.</p>
     </div>
   </div>
+</section> -->
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <section id="portfolio" class="secao-portfolio">
+    <h2 class="titulo-secao">Nosso Portfólio</h2>
+    <div class="grid-portfolio">
+      <div class="projeto">
+        <img src="img/imagem1.jpeg" alt="Projeto 1">
+        <h3>Site para Restaurante</h3>
+        <p>Layout moderno, cardápio dinâmico e integração com WhatsApp.</p>
+      </div>
+      <div class="projeto">
+        <img src="img/imagem2.jpeg" alt="Projeto 2">
+        <h3>Loja Virtual</h3>
+        <p>Site de e-commerce com carrinho, pagamento e painel administrativo.</p>
+      </div>
+    </div>
+  </section>
 
-  <br />
+
+  <!-- Planos -->
+  <section id="planos" class="secao-planos">
+    <h3 class="titulo-secao">Nossos Planos</h3>
+    <div class="grid-planos">
+      <!-- Plano Básico -->
+      <div class="plano">
+        <h4 class="titulo-plano">Plano Básico</h4>
+        <p class="preco-plano">R$499</p>
+        <ul class="lista-beneficios">
+          <li><span class="check">✔</span> 1 Página</li>
+          <li><span class="check">✔</span> Design Responsivo</li>
+          <li><span class="check">✔</span> Integração com WhatsApp</li>
+          <li><span class="nao">✖</span> SEO</li>
+          <li><span class="nao">✖</span> Suporte Mensal</li>
+        </ul>
+        <a href="#contato" class="botao-escolher">Escolher</a>
+      </div>
+
+      <!-- Plano Profissional -->
+      <div class="plano">
+        <h4 class="titulo-plano">Plano Profissional</h4>
+        <p class="preco-plano">R$899</p>
+        <ul class="lista-beneficios">
+          <li><span class="check">✔</span> Até 5 Páginas</li>
+          <li><span class="check">✔</span> Design Responsivo</li>
+          <li><span class="check">✔</span> Integração com Redes Sociais</li>
+          <li><span class="check">✔</span> SEO Básico</li>
+          <li><span class="check">✔</span> Suporte de 1 mês</li>
+        </ul>
+        <a href="#contato" class="botao-escolher">Escolher</a>
+      </div>
+
+      <!-- Plano Premium -->
+      <div class="plano">
+        <h4 class="titulo-plano">Plano Premium</h4>
+        <p class="preco-plano">R$1499</p>
+        <ul class="lista-beneficios">
+          <li><span class="check">✔</span> Páginas Ilimitadas</li>
+          <li><span class="check">✔</span> Design Exclusivo</li>
+          <li><span class="check">✔</span> Integração completa</li>
+          <li><span class="check">✔</span> SEO Avançado</li>
+          <li><span class="check">✔</span> Suporte por 6 meses</li>
+        </ul>
+        <a href="#contato" class="botao-escolher">Escolher</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <br /><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
   <!-- categorias -->
   <div class="categorias">
@@ -327,7 +400,7 @@
   <br />
 
   <div class="contato">
-    <img src="./img/computador.png" alt="" />
+    <img src="./img/comunidade.svg" alt="" />
     <h1>Venha ser parte de nossa comunidade e ficar por dentro de tudo!</h1>
     <form name="form1" id="form1" method="POST" action="#">
       <div class="name">

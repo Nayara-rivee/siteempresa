@@ -1,6 +1,9 @@
 @media screen and (max-width: 1680px) {
     /* Ajustes para telas grandes */
-
+    .navbar li{
+        font-size: 14px;
+        margin: -10px;
+    }
 
     .introducao img {
         right: -1170px;
@@ -16,18 +19,18 @@
     
     .div1{
         position: relative;
-        right: -200px;
+        right: -500px;
     }
 
     .div2{
-        top: 200px;
-        right: -300px ;
+        top: 250px;
+        right: -600px ;
        position: relative;
     }
 
     .div3{
-        top: 700px;
-        right: 180px ;
+        top: 750px;
+        right: -100px ;
         position: relative;
     }
 
@@ -37,8 +40,8 @@
         text-align: center;
         position: relative;
     }
-    .planos .texto {
-        right: 300px;
+    .planos .textos {
+        left: -300px;
         width: 100%;
         text-align: center;
         position: relative;
@@ -120,46 +123,64 @@
         height: auto;
         padding: 50px 20px;
     }
+    .contato h1{
+        position: relative;
+        top:-400px;
+        left: -10px;
+    }
     
     .contato img {
         width: 100%;
         max-width: 400px;
-        height: auto;
-        top: 100px;
+        height: 500px;
+        position: relative;
+        display: flex;
+        right: 400px;
+        top: 200px;
     }
     
     .contato form {
-        position: static;
+        position: relative;
         width: 100%;
+        right: -800px;
+        top: -300px;
+    }
+    
+    .contato form .button-form{
+        position: relative;
+        width: 100%;
+        right: 500px;
+        top: 60px;
     }
     
     .contato input {
-        width: 100%;
+        width: 500px;
         height: 60px;
     }
     
     .imagem-empresa img {
-        width: 50%;
-        height: auto;
+        width: 45%;
+        height: 650px;
     }
     
     .apresentacao-empresa h1{
         position: relative;
-        left: -320px;
+        left: -420px;
     }
 
     
     .apresentacao-empresa p{
         position: relative;
-        left: 850px;
+        left: 750px;
         text-align: justify;
     }
 
     .apresentacao-empresa .btn2 {
-        position: static;
+        position: relative;
         width: 100%;
         text-align: center;
         margin: 20px 0;
+        left: 950px;
     }
     
     .container3 {
@@ -196,6 +217,244 @@
         height: 300px;
     }
 
+    .atendimento h1{
+        position: relative;
+        right: -200px;
+    }
+
+   /* Quadradinhos de cores */
+    .cards-sites h3{
+        font-size: 26px;
+        display: flex;
+        text-align: center;
+        left: -900px;
+    }
+    .cards-sites h1{
+        font-size: 26px;
+        display: flex;
+        text-align: center;
+        left: 750px;
+    }
+
+   .color-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #eee;
+    position: relative;
+    top: -100px;
+    right: 5%;
+    width: 6000px;
+  }
+  
+  .color-option {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s ease;
+
+  }
+  
+  .color-option:hover {
+    transform: scale(1.1);
+  }
+  
+  .color-options2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #eee;
+    position: relative;
+    top: -100px;
+    right: 1%;
+    width: 6000px;
+  }
+  
+  .color-option2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s ease;
+  }
+  
+  .color-option2:hover {
+    transform: scale(1.1);
+  }
+  /* Input de cor personalizada */
+  .custom-color {
+    margin-top: -290px;
+    text-align: center;
+    position: relative;
+    right: -250px;
+    background: #fff;
+    width: 2100px;
+    top: 150px;
+  }
+  
+  .custom-color label {
+    font-size: 1rem;
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+    right: 140px;
+  }
+  
+  .custom-color input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-color2 {
+    margin-top: -290px;
+    text-align: center;
+    position: relative;
+    right: 230px;
+    width: 2200px;
+    top: 120px;
+  }
+  
+  .custom-color2 label {
+    font-size: 1rem;
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+    right: 140px;
+  }
+  
+  .custom-color2 input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Botões fixos para trocar o fundo */
+  .background-buttons {
+    position: relative;
+    top: 90px;
+    right: -28%;
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    width: 5000px;
+    height: 60px;
+    top: 130px;
+    text-align: justify;
+  }
+  
+  .background-buttons label{
+    width: 100px;
+  }
+  .background-buttons2 label{
+    width: 100px;
+  }
+
+  .background-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .background-buttons button:hover {
+    opacity: 0.9;
+  }
+  
+  .background-buttons2 {
+    position: relative;
+    top: 90px;
+    right:32%;
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    width: 5000px;
+    height: 60px;
+  }
+  
+  .background-buttons2 button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .background-buttons2 button:hover {
+    opacity: 0.9;
+  }
+  /* Cores dos botões */
+  .background-buttons button[data-bg="white"] {
+    background-color: #fff;
+    color: #333;
+  }
+  .background-buttons button[data-bg="gray"] {
+    background-color: #ccc;
+    color: #333;
+  }
+  .background-buttons button[data-bg="black"] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* cores dos bortoes2 */
+  
+  .background-buttons2 button[data-bg="white"] {
+    background-color: #fff;
+    color: #333;
+  }
+  .background-buttons2 button[data-bg="gray"] {
+    background-color: #ccc;
+    color: #333;
+  }
+  .background-buttons2 button[data-bg="black"] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Cores das opções */
+  .color-option[data-color="#ff6b6b"] {
+    background-color: #ff6b6b;
+  }
+  .color-option[data-color="#6b5b95"] {
+    background-color: #6b5b95;
+  }
+  .color-option[data-color="#4ecdc4"] {
+    background-color: #4ecdc4;
+  }
+  .color-option[data-color="#ffd166"] {
+    background-color: #ffd166;
+  }
+  
+  /* cores das opcoes2 */
+  .color-option2[data-color="#ff6b6b"] {
+    background-color: #ff6b6b;
+  }
+  .color-option2[data-color="#6b5b95"] {
+    background-color: #6b5b95;
+  }
+  .color-option2[data-color="#4ecdc4"] {
+    background-color: #4ecdc4;
+  }
+  .color-option2[data-color="#ffd166"] {
+    background-color: #ffd166;
+  }
+  
+  .cards-sites .link1{
+position: relative;
+right: -700px;
+  }
+
 }
 @media screen and (max-width: 1440px) {
     /* Ajustes para telas grandes */
@@ -204,11 +463,12 @@
         width: 1440px;
     } */
 
-    /* .navbar li{
+    .navbar li{
         font-size: 12px;
         position: relative;
         right: 50px;
-    } */
+        margin: -20px;
+    }
 
     .introducao img {
         right: -950px;
@@ -220,6 +480,17 @@
 
     .introducao h1{
         font-size: 30px;
+        position: relative;
+        left: 50px;
+    }
+
+    .introducao p{
+        position: relative;
+        left: 80px;
+    }
+    .introducao a button{
+        position: relative;
+        left: 400px;
     }
     
     .divs, .div-empresa, .incentivo {
@@ -228,24 +499,24 @@
     
     .div1{
         position: relative;
-        right: -200px;
+        right: -500px;
         width: 700px;
     }
 
     .div2{
-        top: 200px;
-        right: -300px ;
+        top: 300px;
+        right: -550px ;
        position: relative;
     }
 
     .div3{
-        top: 700px;
-        right: 180px ;
+        top: 730px;
+        right: -50px ;
         position: relative;
     }
 
     .planos h1{
-        right: -500px;
+        right: -470px;
         width: 100%;
         text-align: center;
         position: relative;
@@ -259,7 +530,7 @@
 
     .wrapper2 {
         width: 1000px;
-        right: -100px;
+        right: -130px;
         flex-wrap: wrap;
         top: 140px;
         position: relative;
@@ -327,46 +598,59 @@
         height: auto;
         padding: 50px 20px;
     }
+    .contato h1 {
+        position: relative;
+        top: -500px;
+    }
     
     .contato img {
         width: 100%;
         max-width: 400px;
-        height: auto;
         top: 100px;
     }
     
     .contato form {
-        position: static;
+        position: relative;
         width: 100%;
+        right: -600px;
+        top: -400px;
+    }
+    
+    .contato form .button-form{
+        position: relative;
+        width: 100%;
+        right: 500px;
+        top: 60px;
     }
     
     .contato input {
-        width: 100%;
+        width: 500px;
         height: 60px;
     }
     
     .imagem-empresa img {
-        width: 50%;
-        height: auto;
+        width: 45%;
+        height: 500px;
     }
     
     .apresentacao-empresa h1{
         position: relative;
-        left: -120px;
+        left: -320px;
     }
 
     
     .apresentacao-empresa p{
         position: relative;
-        left: 770px;
+        left: 570px;
         text-align: justify;
     }
 
     .apresentacao-empresa .btn2 {
-        position: static;
+        position: relative;
         width: 100%;
         text-align: center;
         margin: 20px 0;
+        left: 800px;
     }
     
     .container3 {
@@ -379,6 +663,290 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+/* planos e produtos */
+
+.cursos{
+    top: -125px;
+}
+
+  .container3 .itens .nav_itens a {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    margin: 0 10px;
+  }
+
+.nossos-planos h1 {
+    font-size: 34px;
+  }
+
+  .nossos-planos p {
+    font-size: 34px;
+    color: #7c7c7c;
+    position: relative;
+    top: 100px;
+    right: -100px;
+    z-index: 1;
+  }
+
+  .atendimento p{
+    position: relative;
+    right: 200px;
+  }
+  .atendimento button{
+    position: relative;
+    right: 300px;
+  }
+
+  .card2{
+    width: 9000px;
+  }
+     /* Quadradinhos de cores */
+     .cards-sites h3{
+        font-size: 26px;
+        display: flex;
+        text-align: center;
+        left: -900px;
+    }
+    .cards-sites h1{
+        font-size: 26px;
+        display: flex;
+        text-align: center;
+        left: 750px;
+    }
+
+   .color-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #eee;
+    position: relative;
+    top: -100px;
+    right: 5%;
+    width: 7000px;
+    text-align: center;
+  }
+  
+  .color-option {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s ease;
+
+  }
+  
+  .color-option:hover {
+    transform: scale(1.1);
+  }
+  
+  .color-options2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #eee;
+    position: relative;
+    top: -100px;
+    right: 1%;
+    width: 7000px;
+    text-align: center;
+  }
+  
+  .color-option2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s ease;
+  }
+  
+  .color-option2:hover {
+    transform: scale(1.1);
+  }
+  /* Input de cor personalizada */
+  .custom-color {
+    margin-top: -290px;
+    text-align: center;
+    position: relative;
+    right: -200px;
+    background: #fff;
+    width: 2100px;
+    top: 150px;
+  }
+  
+  .custom-color label {
+    font-size: 14px;
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+    right: 140px;
+    width: 70px;
+  }
+  
+  .custom-color input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-color2 {
+    margin-top: -290px;
+    text-align: center;
+    position: relative;
+    right: 140px;
+    width: 2100px;
+    top: 120px;
+  }
+  
+  .custom-color2 label {
+    font-size: 14px;
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+    right: 140px;
+  }
+  
+  .custom-color2 input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Botões fixos para trocar o fundo */
+  .background-buttons {
+    position: relative;
+    top: 90px;
+    right: -28%;
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    width: 5000px;
+    height: 60px;
+    top: 130px;
+    text-align: justify;
+  }
+  
+  .background-buttons label{
+    width: 100px;
+  }
+  .background-buttons2 label{
+    width: 100px;
+  }
+
+  .background-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .background-buttons button:hover {
+    opacity: 0.9;
+  }
+  
+  .background-buttons2 {
+    position: relative;
+    top: 90px;
+    right:32%;
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    width: 5000px;
+    height: 60px;
+  }
+  
+  .background-buttons2 button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .background-buttons2 button:hover {
+    opacity: 0.9;
+  }
+  /* Cores dos botões */
+  .background-buttons button[data-bg="white"] {
+    background-color: #fff;
+    color: #333;
+  }
+  .background-buttons button[data-bg="gray"] {
+    background-color: #ccc;
+    color: #333;
+  }
+  .background-buttons button[data-bg="black"] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* cores dos bortoes2 */
+  
+  .background-buttons2 button[data-bg="white"] {
+    background-color: #fff;
+    color: #333;
+  }
+  .background-buttons2 button[data-bg="gray"] {
+    background-color: #ccc;
+    color: #333;
+  }
+  .background-buttons2 button[data-bg="black"] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Cores das opções */
+  .color-option[data-color="#ff6b6b"] {
+    background-color: #ff6b6b;
+  }
+  .color-option[data-color="#6b5b95"] {
+    background-color: #6b5b95;
+  }
+  .color-option[data-color="#4ecdc4"] {
+    background-color: #4ecdc4;
+  }
+  .color-option[data-color="#ffd166"] {
+    background-color: #ffd166;
+  }
+  
+  /* cores das opcoes2 */
+  .color-option2[data-color="#ff6b6b"] {
+    background-color: #ff6b6b;
+  }
+  .color-option2[data-color="#6b5b95"] {
+    background-color: #6b5b95;
+  }
+  .color-option2[data-color="#4ecdc4"] {
+    background-color: #4ecdc4;
+  }
+  .color-option2[data-color="#ffd166"] {
+    background-color: #ffd166;
+  }
+  
+  .cards-sites .link1{
+position: relative;
+right: -600px;
+width: 2000px;
+font-size: 14px;
+height: 50px;
+  }
+  .cards-sites .link2{
+position: relative;
+width: 2000px;
+font-size: 14px;
+height: 50px;
+left: -600px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -389,15 +957,15 @@
     } */
 
     .navbar img{
-        width:230px;
+        width:170px;
         height: 100px;
     }
 
     .navbar li{
-        font-size: 12px;
+        font-size: 10px;
         position: relative;
         right: 50px;
-        margin: 0 -20px;
+        margin: -30px;
     }
 
     .introducao img {
@@ -416,7 +984,12 @@
     .introducao p{
         font-size: 16px;
         position: relative;
-        left: 10px;
+        left: 80px;
+    }
+
+    .introducao a button{
+        position: relative;
+        left: 250px;
     }
 
 
@@ -445,7 +1018,7 @@
     
     .div1{
         position: relative;
-        right: -800px;
+        right: -1050px;
         width: 800px;
         height: 500px;
         top: 30px;
@@ -455,19 +1028,26 @@
 
     .div1 h5{
     position: relative;
-    top: -100px;
+    top: -150px;
     }
     .div1 p{
         position: relative;
         top: 30px;
         font-size: 20px;
-        left: -150px;
+        left: -100px;
+    }
+    .div1 img{
+        position: relative;
+        left: -740px;
+        top: 140px;
+        width: 200px;
+        height: 300px;
     }
 
 
     .div2{
         top: 550px;
-        right: -10px ;
+        right: -250px ;
        position: relative;
        width: 800px;
     }
@@ -487,7 +1067,7 @@
 
     .div3{
         top: 1000px;
-        right: 780px ;
+        right:550px ;
         position: relative;
         width: 800px;
     }
@@ -539,7 +1119,12 @@
         height: 300px;
     }
 
-    .categorias-sites {
+    .planos .textos{
+        position: relative;
+        left: -200px;
+    }
+
+        .categorias-sites {
         flex-direction: column;
         align-items: center;
         
@@ -630,21 +1215,35 @@
         height: auto;
         padding: 50px 20px;
     }
+    .contato h1 {
+        position: relative;
+        top: -450px;
+    }
     
     .contato img {
-        width: 100%;
+        width: 50%;
         max-width: 400px;
-        height: auto;
-        top: 100px;
+        height: 500px;
+        top: 250px;
+        left: -300px;
     }
     
     .contato form {
-        position: static;
+        position: relative;
         width: 100%;
+        right: -400px;
+        top: -300px;
+    }
+    
+    .contato form .button-form{
+        position: relative;
+        width: 100%;
+        right: 150px;
+        top: 60px;
     }
     
     .contato input {
-        width: 100%;
+        width: 500px;
         height: 60px;
     }
     
@@ -653,17 +1252,25 @@
         height: 400px;
         position: relative;
         right: -250px;
-        top: 40px;
+        top: 70px;
     }
 
-    .apresentacao-empresa{
+    .div-empresa h1{
+        position: relative;
+        top:50px;
+    }
+
+    
+    .div-empresa .apresentacao-empresa{
         position: relative;
         top: 300px;
+        left: 0;
     }
     
     .apresentacao-empresa h1{
         position: relative;
         left: -320px;
+        
     }
 
     
@@ -706,6 +1313,18 @@
         position: relative;
         top: 130px;
     }
+
+    
+   section .grid-planos .plano .preco-plano{
+    position: relative;
+    left: 5px;
+
+  }
+
+  .secao-portfolio .projeto p{
+    position: relative;
+    left: 5px;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -727,7 +1346,7 @@
         height: 100px;
         position: relative;
         top: - 50px;
-        left: -450px;
+        left: -470px;
     }
 
     .introducao h1{
@@ -736,6 +1355,7 @@
         top: 500px;
         display: flex;
         justify-content: center;
+        left: 5px;
     }
 
     .introducao p{
@@ -744,6 +1364,7 @@
         display: flex;
         justify-content: center;
         top: 500px;
+        left: 5px;
     }
 
     .introducao .texto button{
@@ -780,7 +1401,7 @@
     .div1{
         position: relative;
         right: -800px;
-        width: 800px;
+        width: 550px;
         height: 500px;
         top: 30px;
         align-items: center;
@@ -790,54 +1411,63 @@
     .div1 h5{
     position: relative;
     top: -100px;
+    right: -120px;
     }
     .div1 p{
         position: relative;
-        top: 30px;
+        top: 70px;
         font-size: 20px;
-        left: -150px;
+        left: -220px;
     }
-
+    .div1 img{
+        position: relative;
+        top: 190px;
+        width: 200px;
+        height: 200px;
+        left: -750px;
+    }
 
     .div2{
         top: 550px;
-        right: -10px ;
+        right: -250px ;
        position: relative;
-       width: 800px;
+       width: 550px;
     }
     .div2 h5{
         position: relative;
         top: 100px;
-        right: -230px ;
+        right: -100px ;
         }
         .div2 p{
             position: relative;
             top: 200px;
             font-size: 20px;
-            left: -150px;
+            left: -200px;
+            text-align: justify;
+            width: 400px;
         }
 
 
 
     .div3{
         top: 1000px;
-        right: 780px ;
+        right: 290px ;
         position: relative;
-        width: 800px;
+        width: 550px;
     }
     .div3 h1{
         position: relative;
-        right:-200px;
+        right:-140px;
         }
         .div3 h5{
             position: relative;
             top: 200px;
             font-size: 20px;
-            right: 200px;
+            right: 140px;
         }
 
     .planos h1{
-        right: -24vh;
+        right: -150px;
         width: 100%;
         text-align: center;
         position: relative;
@@ -845,7 +1475,7 @@
         font-size: 24px;
     }
     .planos .textos {
-        left: -10vh;
+        left: -170px;
 
         position: relative;
         top:-100px;
@@ -1012,8 +1642,9 @@
     .contato img {
         width: 100%;
         max-width: 400px;
-        height: auto;
         top: 100px;
+        height: 400px;
+        left: 0;
     }
     
     .contato form {
@@ -1025,13 +1656,17 @@
         width: 100%;
         height: 60px;
     }
+    .contato form .button-form{
+        position: relative;
+        left: 0px;
+    }
     
     .imagem-empresa img {
         width: 50%;
         height: 400px;
         position: relative;
         right: -250px;
-        top: 40px;
+        top: 70px;
     }
 
     .apresentacao-empresa{
@@ -1055,6 +1690,7 @@
     .div-empresa .imagem-empresa img{
         position: relative;
         left: 100px;
+        
     }
 
     .apresentacao-empresa .btn2 {

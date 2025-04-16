@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/sitedinamico.css">
+    <link rel="stylesheet" href="./css/sitesdinamico.css">
     <link href="https://cdn.jsdelivr.net/gh/codeOpacity/op_icons@main/op_icons.all.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -47,7 +47,7 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
     <div class="container">
         <div class="components">
@@ -116,7 +116,7 @@
 
     <div class="contato">
         <img src="./img/computador.png" alt="" />
-        <h1>Venha acertar seu orçamento!</h1>
+        <h1>Escolha seu plano</h1>
         <form name="form1" id="form1" method="POST" action="#">
           <div class="name">
             <label for="name">Nome</label>

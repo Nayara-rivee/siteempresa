@@ -36,13 +36,14 @@ nav{
 }
 
 .introducao p{
-    font-size: 24px;
+    font-size: 20px;
     display: flex;
     justify-content: flex-end;
     position: relative;
-    right: -30%;
+    right: -33%;
     top: -400px;
     text-align: center;
+    width: 1200px;
 }
 
 .introducao button{
@@ -241,6 +242,7 @@ nav{
     top: -350px;
     display: flex;
     right: -100px;
+    width:800px;
   }
   
   .contato img{
